@@ -130,5 +130,8 @@ Evaluating default rates across `Loan_Intent` and `Home_Ownership`
 | **Grand Total** | **10,000** | **44,993** | — | — |
 ```
 <img width="1009" height="350" alt="image" src="https://github.com/user-attachments/assets/d3f9b385-0762-40bd-911a-dfa2fbde1672" />
-
+* **Rent (Primary Volume & Impact Driver):** `7,595` defaults out of `23,440` loans (`32.40%` default rate, `+10.17` percentage points above the `22.23%` baseline)[cite: 1]. Renters represent `52.10%` of loan volume[cite: 1] but account for `75.95%` of all defaults—meaning roughly three out of every four defaults come from borrowers who rent[cite: 1].
+* **Mortgage (Moderate Rate, Meaningful Volume):** `2,144` defaults out of `18,485` loans (`11.60%` default rate, `21.44%` share of defaults)[cite: 1]. Its default rate is nearly half the portfolio average[cite: 1], though its large book size (`41.08%` of loans) still produces over a fifth of total defaults[cite: 1].
+* **Own (Lowest Risk Segment):** `222` defaults out of `2,951` loans (`7.52%` default rate, `2.22%` share of defaults)[cite: 1]. Outright homeowners are the safest housing cohort[cite: 1].
+* **Other (High Rate, Negligible Volume):** `39` defaults out of `117` loans (`33.33%` default rate, but only `0.39%` share of defaults)[cite: 1]. High relative risk per loan[cite: 1], but too small (`0.26%` of total loans) to drive portfolio-wide losses on its own[cite: 1].
 
