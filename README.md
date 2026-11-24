@@ -129,14 +129,10 @@ Evaluating default rates across `Loan_Intent` and `Home_Ownership`
 | **Rent** | 7,595 | 23,440 | 32.40% | 75.95% |
 | **Grand Total** | **10,000** | **44,993** | — | — |
 ```
-### Housing Ownership Risk Summary
 
-#### High-Risk Segments
-* **Rent (Primary Risk & Volume Driver):** `32.40%` default rate (`7,595` defaults out of `23,440` loans)[cite: 1]. Renters drive **75.95% of all portfolio defaults**[cite: 1], making this the single largest source of credit losses.
-* **Other (High Rate, Low Impact):** `33.33%` default rate (`39` defaults out of `117` loans)[cite: 1]. Carries the highest per-loan default rate, though its minimal share of defaults (`0.39%`) limits portfolio-wide impact
+### C. Income Tier (`Income_Band`)
 
-#### Low-Risk Segments
- **Own (Safest Cohort):** `7.52%` default rate (`222` defaults out of `2,951` loans), representing just `2.22%` of total defaults.
- **Mortgage (Low-to-Moderate Rate, Large Volume):** `11.60%` default rate (`2,144` defaults out of `18,485` loans)[cite: 1]. Performs well below the portfolio average, though its high loan volume still generates `21.44%` of total defaults
-
-
+* **Low Income (Primary Income Risk Driver):** `4,542` defaults (`45.42%` share of all defaults; `40.37%` default rate across `11,250` loans). Nearly half of all defaults in the entire dataset occur in the lowest income band, at roughly double the overall default rate.
+* **Lower-Middle Income:** `2,481` defaults (`24.81%` share of defaults; `22.05%` default rate across `11,251` loans), sitting right around the `22.23%` portfolio average.
+* **Upper-Middle Income:** `1,936` defaults (`19.36%` share of defaults; `17.21%` default rate across `11,248` loans), performing better than the overall average.
+* **High Income:** 1,041 defaults (`10.41%` share of defaults; `9.26%` default rate across `11,244` loans). Even though all four income bands have almost identical loan counts (`~11,244–11,251` each), **Low Income** generates more than **4.3×** (`4.36×`) as many defaults as **High Income** (`4,542` vs. `1,041`).
