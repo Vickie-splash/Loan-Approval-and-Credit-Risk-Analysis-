@@ -129,9 +129,12 @@ Evaluating default rates across `Loan_Intent` and `Home_Ownership`
 | **Rent** | 7,595 | 23,440 | 32.40% | 75.95% |
 | **Grand Total** | **10,000** | **44,993** | — | — |
 ```
-<img width="1009" height="350" alt="image" src="https://github.com/user-attachments/assets/d3f9b385-0762-40bd-911a-dfa2fbde1672" />
-* **Rent (Primary Volume & Impact Driver):** `7,595` defaults out of `23,440` loans (`32.40%` default rate, `+10.17` percentage points above the `22.23%` baseline)[cite: 1]. Renters represent `52.10%` of loan volume[cite: 1] but account for `75.95%` of all defaults—meaning roughly three out of every four defaults come from borrowers who rent[cite: 1].
-* **Mortgage (Moderate Rate, Meaningful Volume):** `2,144` defaults out of `18,485` loans (`11.60%` default rate, `21.44%` share of defaults)[cite: 1]. Its default rate is nearly half the portfolio average[cite: 1], though its large book size (`41.08%` of loans) still produces over a fifth of total defaults[cite: 1].
-* **Own (Lowest Risk Segment):** `222` defaults out of `2,951` loans (`7.52%` default rate, `2.22%` share of defaults)[cite: 1]. Outright homeowners are the safest housing cohort[cite: 1].
-* **Other (High Rate, Negligible Volume):** `39` defaults out of `117` loans (`33.33%` default rate, but only `0.39%` share of defaults)[cite: 1]. High relative risk per loan[cite: 1], but too small (`0.26%` of total loans) to drive portfolio-wide losses on its own[cite: 1].
+### Housing Ownership Risk Summary
 
+#### High-Risk Segments
+* **Rent (Primary Risk & Volume Driver):** `32.40%` default rate (`7,595` defaults out of `23,440` loans)[cite: 1]. Renters drive **75.95% of all portfolio defaults**[cite: 1], making this the single largest source of credit losses.
+* **Other (High Rate, Low Impact):** `33.33%` default rate (`39` defaults out of `117` loans)[cite: 1]. Carries the highest per-loan default rate, though its minimal share of defaults (`0.39%`) limits portfolio-wide impact[cite: 1].
+
+#### Low-Risk Segments
+* **Own (Safest Cohort):** `7.52%` default rate (`222` defaults out of `2,951` loans)[cite: 1], representing just `2.22%` of total defaults[cite: 1].
+* **Mortgage (Low-to-Moderate Rate, Large Volume):** `11.60%` default rate (`2,144` defaults out of `18,485` loans)[cite: 1]. Performs well below the portfolio average, though its high loan volume still generates `21.44%` of total defaults[cite: 1].
