@@ -9,3 +9,14 @@
 | **45,000** | **14 (`A1:N45001`)** | **22.22%** | **$80,319** | **11.01%** |
 
 
+## Table of Contents
+
+1. [Introduction](#1-introduction)
+2. [Data Description](#2-data-description)
+3. [Methodology](#3-methodology)
+4. [Analysis and Findings](#4-analysis-and-findings)
+5. [Key Insights](#5-key-insights)
+6. [Recommendations](#6-recommendations)
+7. [Conclusion](#7-conclusion)
+
+
