@@ -127,11 +127,19 @@ Evaluating default rates across `Loan Status` and `Home Ownership`
 **Business Insight:** Default risk is highest among renters (32.40%), followed by Other (33.33%), Lower-Middle Income? 
 
 
-### 4.3 INTEREST RATE, TOTAL LOAN STATUS AND LOAN PERCENT INCOME
+### 4.3 INTEREST RATE,  AND LOAN PERCENT INCOME
 Evaluating Defaults Rates Across  `INTEREST RATE` and `LOAN PERCENT INCOME`
 
 (<img width="752" height="452" alt="image" src="https://github.com/user-attachments/assets/16a0298f-527c-48a3-b8ac-b5acd1793f46" />.
 
 Business Insight:
 Higher loan-percent-income ratios combined with higher interest rates are associated with increased default risk.
+
 Borrowers with lower repayment burdens and competitive rates present the lowest risk, while those with higher burdens require stricter affordability checks and credit assessments.
+
+
+### 4.4 HOME OWNERSHIP AND INCOME BAND
+Evaluating Defaults Rates Across  `HOME OWNERSHIP` and `INCOME BAND`
+
+(<img width="752" height="452" alt="image" src="https://github.com/user-
+  attachments/assets/a2412a31-4574-455a-937e-81b5e8eb2c34" />.
