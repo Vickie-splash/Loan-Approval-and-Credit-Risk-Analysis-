@@ -118,9 +118,18 @@ This project uses a four-stage analytical workflow combining spreadsheet prepara
 | **Non-Defaulted Loans (`loan_status = 0`)** | `35,000` (`77.78%`) | Performing baseline cohort |
 
 
-### 4.2 Loan Intent & Borrower Segment Performance
+### 4.2 Loan Intent & Home ownership
 
-Evaluating default rates across `loan_intent` and `person_home_ownership` highlights where credit stress concentrates versus where borrower profiles remain resilient:
+Evaluating default rates across `Loan_Intent` and `Home_Ownership`
+| Home Ownership | Defaults | Total Loans | Default Rate | Share of Defaults |
+| :--- | ---: | ---: | ---: | ---: |
+| **Mortgage** | 2,144 | 18,485 | 11.60% | 21.44% |
+| **Other** | 39 | 117 | 33.33% | 0.39% |
+| **Own** | 222 | 2,951 | 7.52% | 2.22% |
+| **Rent** | 7,595 | 23,440 | 32.40% | 75.95% |
+| **Grand Total** | **10,000** | **44,993** | — | — |
+```
+
 
 | Segment Dimension | Higher-Risk Segment(s) | Lower-Risk / Safer Segment(s) | Analytical Takeaway |
 | :--- | :--- | :--- | :--- |
