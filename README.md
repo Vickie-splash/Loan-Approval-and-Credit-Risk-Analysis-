@@ -4,9 +4,9 @@
 > **A Structured Lending & Credit Risk Analysis Using Excel, SQL and PowerBI | Prepared by Victoria Onyenso**
 ## Key Metrics at a Glance
 
-| Total Loan Records | Core Columns Analyzed | Default Rate (%) | Avg. Borrower Income | Avg. Interest Rate |
+| Total Loan Records | Core Columns Analyzed  | Avg. Interest Rate |
 | :--- | :--- | :--- | :--- | :--- |
-| **45,000** | **14 (`A1:N45001`)** | **22.22%** | **$80,319** | **11.01%** |
+| **45,000** | **14 (`A1:N45001`)**  | **11.01%** |
 
 
 ## Table of Contents
@@ -65,15 +65,35 @@ The source file contains **45,000 rows** and **14 columns** representing borrowe
 | **Total Observations (Rows)** | `45,000` | Rows `2:45001` (`A1:N45001` with header row) |
 | **Total Columns** | `14` | Columns `A` through `N` in `loan_data.csv` 
 
+### Data Cleaning
 
-### Data Quality & Cleaning Checks
+To ensure analytical reproducibility, the raw dataset underwent a multi-step transformation across three structured Excel worksheets (`Raw_Data`, `Clean_Data`, and `Final_Data`):
 
-Before running risk comparisons, the `45,000`-row dataset was  reviewed for structural consistency:
+#### 1. Worksheet Architecture & Row Retention
+** Imported `loan_data.csv` (`A1:N45001`, `45,000` rows × `14` columns) into `Raw_Data` as a baseline. Created `Clean_Data` (`A1:Z45001`) to execute text standardization, outlier flags, and risk banding.
+* **Analysis-Ready Dataset (`Final_Data`):** Extracted `44,993` validated records (`A1:U44994`) into `Final_Data` after removing `7` impossible age records (`Age > 100`).
 
-* **Row & Column Integrity:** Verified `45,000` data rows across columns `A` through `N` (`A1:N45001`).
-* **Missing & Extreme Value Audit:** Checked numeric fields (`Age`, Income`, `loan_Amnt`, `Ioan_Int_Rate`, `Loan_Percent_Income`, `Credit_Score`) for blank cells, out-of-range ages, zero/negative income, and extreme outliers .
-* **Categorical Standardization:** Normalized text categories (`person_home_ownership`, `loan_intent`, `previous_loan_defaults_on_file`) For identical labelling
+#### 2. Baseline Rule Checks
+* **Completeness & Uniqueness:** Audited columns `A:N` for exact duplicate rows (`0` found), missing/blank cells (`0` found), and negative values in `Income` (`0` found) or `Employment_Years` (`0` found).
+* **Age & Employment column:** Flagged `7` records with `Age > 100` as `Review Required` and excluded them from `Final_Data`. reviewed(`Employment_Years <= Age - 16` via `employment_review`), flagging `0` anomalies.
+* **Loan-to-Income & Target Consistency:**
+  * Identified `24` records in `Final_Data` with `Loan_Percent_Income <= 0` (retained ).
+  * Cross-tabulated `Previous_Default` against `Loan_Status`: `Previous_Default = "Yes"` (`22,856` rows) contains `0` defaults (`Loan_Status = 1`), whereas all `10,000` default cases (`Loan_Status = 1`) occur exclusively within `Previous_Default = "No"` (`22,137` rows
 
+#### 3. Derived Risk & Demographic Bands
+Standardized continuous borrower attributes  to support SQL grouping and Power BI slicing:
+
+| Derived Feature | Grouping Logic & Thresholds |
+| :--- | :--- |
+| **`Age_Group`** | **Young Adult** (`< 25`), **Early Adult** (`25–34`), **Middle Adult** (`35–44`), **Late Adult** (`45–59`), **Senior Adult** (`>= 60`) |
+| **`Income_Band`** | Quartile-based split using $Q_1 = \$47,204.00$, $\text{Median} = \$67,048.00$, and $Q_3 = \$95,789.25$:<br>• **Low Income:** `<= $47,204.00`<br>• **Lower-Middle Income:** `> $47,204.00` to `$67,048.00`<br>• **Upper-Middle Income:** `> $67,048.00` to `$95,789.25`<br>• **High Income:** `> $95,789.25` |
+| **`Credit_Score_Band`** | **Poor** (`< 580`), **Fair** (`580–669`), **Good** (`670–739`), **Very Good** (`740–799`), **Excellent** (`>= 800`) |
+
+#### 4. Outlier Detection & Retention Policy
+statistical outliers were flagged for segmented analysis and retained in `Final_Data`:
+* **`Income_outlier_flag`:** Classified into **Normal**, **Outlier** (`> $168,667.13`), and **Extreme Outlier** (`> $241,545.00`).
+* **`loan_amount_outlier_flag`:** Classified into **Normal**, **Outlier** (`> $23,093.13`), and **Extreme Outlier** (`> $33,949.00`).
+* **`income_review`:** Flagged `286` ultra-high-income records (`> $321,588.67`) for isolated verification while retaining all rows to preserve portfolio completeness.
 
 ## 3. Methodology
 
@@ -96,8 +116,7 @@ This project uses a four-stage analytical workflow combining spreadsheet prepara
 | **Total Loans Analyzed** | `45,000` | Full dataset (`A1:N45001`) |
 | **Defaulted Loans (`loan_status = 1`)** | `10,000` (`22.22%`) | Core credit loss cohort to contain |
 | **Non-Defaulted Loans (`loan_status = 0`)** | `35,000` (`77.78%`) | Performing baseline cohort |
-| **Avg. Loan Amount (Defaulters vs. Non-Defaulters)** | Higher in high-burden / higher-rate loans | Driven by pricing and income-to-loan pressure |
-| **Avg. Interest Rate (Defaulters vs. Non-Defaulters)** | Elevated in defaulted loans | Reflects higher risk pricing and adverse selection |
+
 
 ### 4.2 Loan Intent & Borrower Segment Performance
 
