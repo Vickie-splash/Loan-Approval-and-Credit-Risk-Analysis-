@@ -135,3 +135,13 @@ Evaluating default rates across `Loan_Intent` and `Home_Ownership`
 ### 4.3 INTEREST RATE, TOTAL LOAN STATUS AND LOAN PERCENT INCOME
 EVALUATING DEFAULTS RATES ACROSS  `INTEREST RATE` and `LOAN PERCENT INCOME`
 
+| Loan Percent Income | 5-10 | 10-15 | 15-20 | Grand Total |
+| :--- | ---: | ---: | ---: | ---: |
+| 0-0.1 | 262 | 1049 | 633 | 1944 |
+| 0.1-0.2 | 384 | 1599 | 1051 | 3034 |
+| 0.2-0.3 | 559 | 1722 | 707 | 2988 |
+| 0.3-0.4 | 390 | 994 | 264 | 1648 |
+| 0.4-0.5 | 85 | 190 | 66 | 341 |
+| 0.5-0.6 | 9 | 30 | 2 | 41 |
+| 0.6-0.7 | 3 | 1 | — | 4 |
+| **Grand Total** | **1692** | **5585** | **2723** | **10000** |
