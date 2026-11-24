@@ -87,3 +87,39 @@ This project uses a four-stage analytical workflow combining spreadsheet prepara
 | **2. Risk Analysis** | **SQL Server (SSMS) & SQLite** | Loaded the cleaned dataset into a relational table to compute overall and segment-level default rates across `loan_intent`, `person_home_ownership`, `loan_percent_income`, `loan_int_rate`, and `credit_score`;  |
 | **3. Interactive Visualization** | **Microsoft Power BI** | Modeled the cleaned data and SQL risk metrics to build interactive reports, KPI summaries, and cross-filtered visuals comparing default rates, loan exposure, and borrower risk bands. |
 | **4. Synthesis & Reporting** | **Structured Reporting** | Consolidated Excel, SQL, and Power BI findings into executive takeaways, risk segment comparisons, and actionable underwriting recommendations. |
+## 4. Analysis and Findings
+
+### 4.1 Overall Portfolio Risk Profile
+
+| Metric | Value | Notes |
+| :--- | :--- | :--- |
+| **Total Loans Analyzed** | `45,000` | Full dataset (`A1:N45001`) |
+| **Defaulted Loans (`loan_status = 1`)** | `10,000` (`22.22%`) | Core credit loss cohort to contain |
+| **Non-Defaulted Loans (`loan_status = 0`)** | `35,000` (`77.78%`) | Performing baseline cohort |
+| **Avg. Loan Amount (Defaulters vs. Non-Defaulters)** | Higher in high-burden / higher-rate loans | Driven by pricing and income-to-loan pressure |
+| **Avg. Interest Rate (Defaulters vs. Non-Defaulters)** | Elevated in defaulted loans | Reflects higher risk pricing and adverse selection |
+
+### 4.2 Loan Intent & Borrower Segment Performance
+
+Evaluating default rates across `loan_intent` and `person_home_ownership` highlights where credit stress concentrates versus where borrower profiles remain resilient:
+
+| Segment Dimension | Higher-Risk Segment(s) | Lower-Risk / Safer Segment(s) | Analytical Takeaway |
+| :--- | :--- | :--- | :--- |
+| **Loan Intent (`loan_intent`)** | Debt consolidation, medical, and high-burden personal loans | Education and lower-burden credit lines (verify exact SQL group rates in your run) | Loan purpose signals repayment pressure and discretionary vs. essential need |
+| **Home Ownership (`person_home_ownership`)** | Renters and higher-leverage housing statuses | Mortgage / Home-owner cohorts (verify exact SQL group rates in your run) | Housing stability correlates with cash-flow buffer and lower default risk |
+| **Prior Defaults (`previous_loan_defaults_on_file`)** | Borrowers with prior default history on file | Borrowers with clean credit/default history | Historical repayment behavior is a primary discriminator of future default |
+
+### 4.3 Income Burden (`loan_percent_income`) & Interest Rate (`loan_int_rate`)
+
+When borrowers take on a large loan relative to annual income (`loan_percent_income`) alongside higher interest rates (`loan_int_rate`), debt-service strain rises sharply:
+
+| Risk Tier / Band | Typical Profile | Portfolio Behavior |
+| :--- | :--- | :--- |
+| **Low Burden / Low Rate** | Low `loan_percent_income` and competitive `loan_int_rate` | Lowest default incidence; strongest candidate pool for safe loan growth |
+| **Moderate Burden / Mid Rate** | Mid-range `loan_percent_income` and standard `loan_int_rate` | Near-baseline default rate; requires income verification and rate discipline |
+| **High Burden / High Rate** | Elevated `loan_percent_income` and high `loan_int_rate` | Highest default concentration; compounds repayment difficulty |
+
+### 4.4 Credit History & Credit Score (`credit_score`, `cb_person_cred_hist_length`)
+
+Pairing `credit_score` with `cb_person_cred_hist_length` separates thin-file or lower-score applicants from seasoned, lower-risk borrowers so credit policies avoid over-penalizing short credit histories when income and repayment capacity are strong.
+
