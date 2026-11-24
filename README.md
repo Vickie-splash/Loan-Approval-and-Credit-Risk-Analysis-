@@ -120,40 +120,18 @@ This project uses a four-stage analytical workflow combining spreadsheet prepara
 
 ### 4.2 Loan Status & Home ownership
 
-Evaluating default rates across `Loan Intent` and `Home Ownership`
-| Home Ownership | Defaults | Total Loans | Default Rate | Share of Defaults |
-| :--- | ---: | ---: | ---: | ---: |
-| **Mortgage** | 2,144 | 18,485 | 11.60% | 21.44% |
-| **Other** | 39 | 117 | 33.33% | 0.39% |
-| **Own** | 222 | 2,951 | 7.52% | 2.22% |
-| **Rent** | 7,595 | 23,440 | 32.40% | 75.95% |
-| **Grand Total** | **10,000** | **44,993** | 
+Evaluating default rates across `Loan Status` and `Home Ownership`
 
 (<img width="1009" height="350" alt="image" src="https://github.com/user-attachments/assets/3e1ce3d1-2106-443c-b550-ccfe09d09808" />.
 
+**Business Insight:** Default risk is highest among renters (32.40%), followed by Other (33.33%), Lower-Middle Income? 
+
 
 ### 4.3 INTEREST RATE, TOTAL LOAN STATUS AND LOAN PERCENT INCOME
-Evaluating Defaults Across  `INTEREST RATE` and `LOAN PERCENT INCOME`
+Evaluating Defaults Rates Across  `INTEREST RATE` and `LOAN PERCENT INCOME`
 
-| Loan Percent Income | 5-10 | 10-15 | 15-20 | Grand Total |
-| :--- | ---: | ---: | ---: | ---: |
-| 0-0.1 | 262 | 1049 | 633 | 1944 |
-| 0.1-0.2 | 384 | 1599 | 1051 | 3034 |
-| 0.2-0.3 | 559 | 1722 | 707 | 2988 |
-| 0.3-0.4 | 390 | 994 | 264 | 1648 |
-| 0.4-0.5 | 85 | 190 | 66 | 341 |
-| 0.5-0.6 | 9 | 30 | 2 | 41 |
-| 0.6-0.7 | 3 | 1 | — | 4 |
-| **Grand Total** | **1692** | **5585** | **2723** | **10000** |
-<img width="752" height="452" alt="image" src="https://github.com/user-attachments/assets/16a0298f-527c-48a3-b8ac-b5acd1793f46" />.
+(<img width="752" height="452" alt="image" src="https://github.com/user-attachments/assets/16a0298f-527c-48a3-b8ac-b5acd1793f46" />.
 
-SUMMARY:
-
-Higher `loan_percent_income` combined with higher `loan_int_rate` increases repayment pressure and default risk.
-
-| Risk Tier | Portfolio Behavior |
-| :--- | :--- |
-| **Low Loan Percent Income/ Low Rate** | Lowest default risk |
-| **Loan Percent Income / Mid Rate** | Near-average default risk |
-| **Loan Percent Income/ High Rate** | Highest default risk |
-
+Business Insight:
+Higher loan-percent-income ratios combined with higher interest rates are associated with increased default risk.
+Borrowers with lower repayment burdens and competitive rates present the lowest risk, while those with higher burdens require stricter affordability checks and credit assessments.
