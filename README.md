@@ -129,25 +129,6 @@ Evaluating default rates across `Loan_Intent` and `Home_Ownership`
 | **Rent** | 7,595 | 23,440 | 32.40% | 75.95% |
 | **Grand Total** | **10,000** | **44,993** | — | — |
 ```
+<img width="1009" height="350" alt="image" src="https://github.com/user-attachments/assets/d3f9b385-0762-40bd-911a-dfa2fbde1672" />
 
-
-| Segment Dimension | Higher-Risk Segment(s) | Lower-Risk / Safer Segment(s) | Analytical Takeaway |
-| :--- | :--- | :--- | :--- |
-| **Loan Intent (`loan_intent`)** | Debt consolidation, medical, and high-burden personal loans | Education and lower-burden credit lines (verify exact SQL group rates in your run) | Loan purpose signals repayment pressure and discretionary vs. essential need |
-| **Home Ownership (`person_home_ownership`)** | Renters and higher-leverage housing statuses | Mortgage / Home-owner cohorts (verify exact SQL group rates in your run) | Housing stability correlates with cash-flow buffer and lower default risk |
-| **Prior Defaults (`previous_loan_defaults_on_file`)** | Borrowers with prior default history on file | Borrowers with clean credit/default history | Historical repayment behavior is a primary discriminator of future default |
-
-### 4.3 Income Burden (`loan_percent_income`) & Interest Rate (`loan_int_rate`)
-
-When borrowers take on a large loan relative to annual income (`loan_percent_income`) alongside higher interest rates (`loan_int_rate`), debt-service strain rises sharply:
-
-| Risk Tier / Band | Typical Profile | Portfolio Behavior |
-| :--- | :--- | :--- |
-| **Low Burden / Low Rate** | Low `loan_percent_income` and competitive `loan_int_rate` | Lowest default incidence; strongest candidate pool for safe loan growth |
-| **Moderate Burden / Mid Rate** | Mid-range `loan_percent_income` and standard `loan_int_rate` | Near-baseline default rate; requires income verification and rate discipline |
-| **High Burden / High Rate** | Elevated `loan_percent_income` and high `loan_int_rate` | Highest default concentration; compounds repayment difficulty |
-
-### 4.4 Credit History & Credit Score (`credit_score`, `cb_person_cred_hist_length`)
-
-Pairing `credit_score` with `cb_person_cred_hist_length` separates thin-file or lower-score applicants from seasoned, lower-risk borrowers so credit policies avoid over-penalizing short credit histories when income and repayment capacity are strong.
 
