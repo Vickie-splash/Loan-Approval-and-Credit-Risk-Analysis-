@@ -120,7 +120,7 @@ This project uses a four-stage analytical workflow combining spreadsheet prepara
 
 ### 4.2 Loan Status & Home ownership
 
-Evaluating default rates across `Loan_Intent` and `Home_Ownership`
+Evaluating default rates across `Loan Intent` and `Home Ownership`
 | Home Ownership | Defaults | Total Loans | Default Rate | Share of Defaults |
 | :--- | ---: | ---: | ---: | ---: |
 | **Mortgage** | 2,144 | 18,485 | 11.60% | 21.44% |
@@ -133,7 +133,7 @@ Evaluating default rates across `Loan_Intent` and `Home_Ownership`
 
 
 ### 4.3 INTEREST RATE, TOTAL LOAN STATUS AND LOAN PERCENT INCOME
-EVALUATING DEFAULTS RATES ACROSS  `INTEREST RATE` and `LOAN PERCENT INCOME`
+Evaluating Defaults Across  `INTEREST RATE` and `LOAN PERCENT INCOME`
 
 | Loan Percent Income | 5-10 | 10-15 | 15-20 | Grand Total |
 | :--- | ---: | ---: | ---: | ---: |
@@ -145,3 +145,15 @@ EVALUATING DEFAULTS RATES ACROSS  `INTEREST RATE` and `LOAN PERCENT INCOME`
 | 0.5-0.6 | 9 | 30 | 2 | 41 |
 | 0.6-0.7 | 3 | 1 | — | 4 |
 | **Grand Total** | **1692** | **5585** | **2723** | **10000** |
+<img width="752" height="452" alt="image" src="https://github.com/user-attachments/assets/16a0298f-527c-48a3-b8ac-b5acd1793f46" />.
+
+SUMMARY:
+
+Higher `loan_percent_income` combined with higher `loan_int_rate` increases repayment pressure and default risk.
+
+| Risk Tier | Portfolio Behavior |
+| :--- | :--- |
+| **Low Loan Percent Income/ Low Rate** | Lowest default risk |
+| **Loan Percent Income / Mid Rate** | Near-average default risk |
+| **Loan Percent Income/ High Rate** | Highest default risk |
+
