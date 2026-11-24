@@ -129,7 +129,44 @@ Evaluating default rates across `Loan_Intent` and `Home_Ownership`
 | **Rent** | 7,595 | 23,440 | 32.40% | 75.95% |
 | **Grand Total** | **10,000** | **44,993** | — | — |
 ```
+### 4.1 Income Tier Analysis
 
+Evaluating loan default rates across `Income_Band`.
+
+### 4.1 Income Tier Analysis
+
+Evaluating loan default rates across `Income_Band`.
+
+| Income Tier | Defaults | Total Loans | Default Rate | Share of Defaults |
+|:---|---:|---:|---:|---:|
+| **High Income** | 1,041 | 11,244 | 9.26% | 10.41% |
+| **Low Income** | 4,542 | 11,250 | 40.37% | 45.42% |
+| **Lower-Middle Income** | 2,481 | 11,251 | 22.05% | 24.81% |
+| **Upper-Middle Income** | 1,936 | 11,248 | 17.21% | 19.36% |
+| **Grand Total** | **10,000** | **44,993** | **22.23%** | **100.00%** |
+
+
+
+| Income Tier | Defaults | Total Loans | Default Rate | Share of Defaults |
+|:---|---:|---:|---:|---:|
+| **High Income** | 1,041 | 11,244 | 9.26% | 10.41% |
+| **Low Income** | 4,542 | 11,250 | 40.37% | 45.42% |
+| **Lower-Middle Income** | 2,481 | 11,251 | 22.05% | 24.81% |
+| **Upper-Middle Income** | 1,936 | 11,248 | 17.21% | 19.36% |
+| **Grand Total** | **10,000** | **44,993** | **22.23%** | **100.00%** |
+
+
+## 4.3
+
+ Income Tier Analysis (Income_Band)
+
+| Income Tier | Defaults | Total Loans | Default Rate | Default Share |
+|---|---:|---:|---:|---:|
+| High Income | 1,041 | 11,244 | 9.26% | 10.41% |
+| Low Income | 4,542 | 11,250 | 40.37% | 45.42% |
+| Lower-Middle Income | 2,481 | 11,251 | 22.05% | 24.81% |
+| Upper-Middle Income | 1,936 | 11,248 | 17.21% | 19.36% |
+| **Grand Total** | **10,000** | **44,993** | **22.23%** | **100.00%** |
 ### C. Income Tier (`Income_Band`)
 
 * **Low Income (Primary Income Risk Driver):** `4,542` defaults (`45.42%` share of all defaults; `40.37%` default rate across `11,250` loans). Nearly half of all defaults in the entire dataset occur in the lowest income band, at roughly double the overall default rate.
