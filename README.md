@@ -27,6 +27,7 @@ Lenders aim to achieve a steady loan portfolio growth while keeping default rate
 This report presents a structured portfolio and default-risk analysis of **45,000 loan records** across **14 columns**. It evaluates which borrower, loan, interest-rate, and income-burden combinations drive defaults. It also provides insights on where lending can expand safely.
 
 ### Background & Purpose of the Study
+To analyze the loan dataset provided in order to identify the key borrower and loan characteristics associated with loan performance and default risk, and to generate evidence-based insights for credit assessment and portfolio management.
 
-This review was developed for **analytics reviewers, lending and risk stakeholders, and hiring managers** to demonstrate end-to-end data preparation, structured querying, and business-focused risk reporting without custom software programming.
+
 
