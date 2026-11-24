@@ -127,19 +127,26 @@ Evaluating default rates across `Loan Status` and `Home Ownership`
 **Business Insight:** Default risk is highest among renters (32.40%), followed by Other (33.33%), Lower-Middle Income? 
 
 
-### 4.3 INTEREST RATE,  AND LOAN PERCENT INCOME
+### 4.3 INTEREST RATE, AND LOAN PERCENT INCOME
+
 Evaluating Defaults Rates Across  `INTEREST RATE` and `LOAN PERCENT INCOME`
 
 (<img width="752" height="452" alt="image" src="https://github.com/user-attachments/assets/16a0298f-527c-48a3-b8ac-b5acd1793f46" />.
 
 Business Insight:
-Higher loan-percent-income ratios combined with higher interest rates are associated with increased default risk.
+**Dominant Interest Rate Band:** The 10–15% interest rate range accounts for the highest number of defaults (5,585), representing 55.85% of all defaults.
+**Highest Loan Burden:** Borrowers in the 0.1–0.2 loan-to-income band contribute the most defaults (3,034), followed by the 0.2–0.3 band (2,988).
+ **High Burden Patterns:** Defaults decline at loan-to-income ratios above 0.3, with only 386 defaults recorded above 0.4.
+ **Combined Pattern:** The highest concentration occurs among borrowers with a loan-to-income ratio of 0.2–0.3 and interest rates of 10–15%, accounting for 1,722 defaults (17.22% of all defaults).
 
-Borrowers with lower repayment burdens and competitive rates present the lowest risk, while those with higher burdens require stricter affordability checks and credit assessments.
+**Overall Insight:** Defaults are concentrated among borrowers with moderate loan-to-income ratios and interest rates of 10–15%.
 
 
 ### 4.4 HOME OWNERSHIP AND INCOME BAND
 Evaluating Defaults Rates Across  `HOME OWNERSHIP` and `INCOME BAND`
 
-(<img width="752" height="452" alt="image" src="https://github.com/user-
-  attachments/assets/a2412a31-4574-455a-937e-81b5e8eb2c34" />.
+(<img width="752" height="452" alt="image" src="https://github.com/use attachments/assets/a2412a31-4574-455a-937e-81b5e8eb2c34" />.
+
+Business Insight:
+Low Income borrowers account for the highest number of defaults (4,542), driven primarily by renters (3,944). 
+Renters dominate defaults across all income bands, while mortgage defaults are highest among Upper-Middle Income borrowers (695). Overall, Low Income renters represent the largest concentration of defaults, highlighting the relationship between income level and home ownership in default patterns.
