@@ -31,8 +31,36 @@ To analyze the loan dataset provided in order to identify the key borrower and l
 
 The project workflow uses structured analytical tooling:
 
-- **Microsoft Excel** — initial data inspection and cleaning, Duplicate Checks, sheet organization, and pivot charts
+- **Microsoft Excel** — initial data inspection and cleaning, Duplicate Checks, Sheet organization, and pivot charts
 - **SQL Server Management Studio (SSMS) & SQLite** — structured queries, and default-rate breakdowns
-- **Power BI** — interactive dashboarding, visual KPI tracking, Slicer
-- **Structured Reporting (Word / Markdown)** — executive findings, risk insights, and actionable credit recommendations
+- **Power BI** — interactive dashboarding, Visual KPI tracking, Slicers
+- **Structured Reporting (Markdown)** — executive findings, risk insights, and actionable credit recommendations
 
+##Data Description
+
+### Dataset Overview
+
+The source file contains **45,000 rows** and **14 columns** representing borrower profiles, loan intent, loan interest, and loan status. 
+| Column | Data Type | Description |
+| :--- | :--- | :--- |
+| `Age` | Integer / Decimal | Age of the loan applicant (years) |
+| `Gender` | String | Applicant gender category |
+| `Education` | String | Highest education level attained by the applicant |
+| `Annual Income` | Decimal | Annual gross income of the applicant |
+| `Employment Years` | Integer / Decimal | Years of employment experience |
+| `Home_Ownership` | String | Housing status (e.g., Rent, Mortgage, Own, Other) |
+| `Loan_Amont` | Decimal | Principal loan amount requested or issued |
+| `Loan_Intent` | String | Stated purpose of the loan (e.g., Personal, Education, Medical, Venture, Home Improvement, Debt Consolidation) |
+| `loan_int_rate` | Decimal | Annual interest rate applied to the loan (%) |
+| `loan_percent_income` | Decimal | Loan amount as a share of annual income (`loan_amnt / person_income`) |
+| `Cred_Hist_Length` | Decimal | Length of the applicant's credit history (years) |
+| `Credit_Score` | Integer | Applicant credit score |
+| `Previous_defaults` | String / Flag | Indicator of prior loan default history on file |
+| `Loan_Status` | Binary (`0`/`1`) | Target loan outcome indicator (e.g., `1` = Approved, `0` =Not Approved) |
+
+### Summary Statistics & Portfolio Benchmarks
+
+| Statistic | Value | Notes |
+| :--- | :--- | :--- |
+| **Total Observations (Rows)** | `45,000` | Rows `2:45001` (`A1:N45001` with header row) |
+| **Total Columns** | `14` | Columns `A` through `N` in `loan_data.csv` 
