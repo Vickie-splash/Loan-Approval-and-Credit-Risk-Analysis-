@@ -29,5 +29,10 @@ This report presents a structured portfolio and default-risk analysis of **45,00
 ### Background & Purpose of the Study
 To analyze the loan dataset provided in order to identify the key borrower and loan characteristics associated with loan performance and default risk, and to generate evidence-based insights for credit assessment and portfolio management.
 
+The project workflow uses structured analytical tooling:
 
+- **Microsoft Excel** — initial data inspection and cleaning, Duplicate Checks, sheet organization, and pivot charts
+- **SQL Server Management Studio (SSMS) & SQLite** — structured queries, and default-rate breakdowns
+- **Power BI** — interactive dashboarding, visual KPI tracking, Slicer
+- **Structured Reporting (Word / Markdown)** — executive findings, risk insights, and actionable credit recommendations
 
