@@ -20,3 +20,13 @@
 7. [Conclusion](#7-conclusion)
 
 
+## 1. Introduction
+
+### Domain & Portfolio Context
+Lenders aim to achieve a steady loan portfolio growth while keeping default rates controlled.
+This report presents a structured portfolio and default-risk analysis of **45,000 loan records** across **14 columns**. It evaluates which borrower, loan, interest-rate, and income-burden combinations drive defaults. It also provides insights on where lending can expand safely.
+
+### Background & Purpose of the Study
+
+This review was developed for **analytics reviewers, lending and risk stakeholders, and hiring managers** to demonstrate end-to-end data preparation, structured querying, and business-focused risk reporting without custom software programming.
+
