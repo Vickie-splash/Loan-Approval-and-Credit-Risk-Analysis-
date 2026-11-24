@@ -133,15 +133,10 @@ Evaluating default rates across `Loan_Intent` and `Home_Ownership`
 
 #### High-Risk Segments
 * **Rent (Primary Risk & Volume Driver):** `32.40%` default rate (`7,595` defaults out of `23,440` loans)[cite: 1]. Renters drive **75.95% of all portfolio defaults**[cite: 1], making this the single largest source of credit losses.
-* **Other (High Rate, Low Impact):** `33.33%` default rate (`39` defaults out of `117` loans)[cite: 1]. Carries the highest per-loan default rate, though its minimal share of defaults (`0.39%`) limits portfolio-wide impact[cite: 1].
+* **Other (High Rate, Low Impact):** `33.33%` default rate (`39` defaults out of `117` loans)[cite: 1]. Carries the highest per-loan default rate, though its minimal share of defaults (`0.39%`) limits portfolio-wide impact
 
 #### Low-Risk Segments
-* **Own (Safest Cohort):** `7.52%` default rate (`222` defaults out of `2,951` loans)[cite: 1], representing just `2.22%` of total defaults[cite: 1].
-* **Mortgage (Low-to-Moderate Rate, Large Volume):** `11.60%` default rate (`2,144` defaults out of `18,485` loans)[cite: 1]. Performs well below the portfolio average, though its high loan volume still generates `21.44%` of total defaults[cite: 1].
-| Income Band | Loan Defaults | Total Loans | Default Rate | Default Share |
-| :--- | ---: | ---: | ---: | ---: |
-| **High Income** | 1,041 | 11,244 | 9.26% | 10.41% |
-| **Low Income** | 4,542 | 11,250 | 40.37% | 45.42% |
-| **Lower-Middle Income** | 2,481 | 11,251 | 22.05% | 24.81% |
-| **Upper-Middle Income** | 1,936 | 11,248 | 17.21% | 19.36% |
-| **Grand Total** | **10,000** | **44,993** | **22.23%** | **100.00%** |
+ **Own (Safest Cohort):** `7.52%` default rate (`222` defaults out of `2,951` loans), representing just `2.22%` of total defaults.
+ **Mortgage (Low-to-Moderate Rate, Large Volume):** `11.60%` default rate (`2,144` defaults out of `18,485` loans)[cite: 1]. Performs well below the portfolio average, though its high loan volume still generates `21.44%` of total defaults
+
+
