@@ -138,3 +138,10 @@ Evaluating default rates across `Loan_Intent` and `Home_Ownership`
 #### Low-Risk Segments
 * **Own (Safest Cohort):** `7.52%` default rate (`222` defaults out of `2,951` loans)[cite: 1], representing just `2.22%` of total defaults[cite: 1].
 * **Mortgage (Low-to-Moderate Rate, Large Volume):** `11.60%` default rate (`2,144` defaults out of `18,485` loans)[cite: 1]. Performs well below the portfolio average, though its high loan volume still generates `21.44%` of total defaults[cite: 1].
+| Income Band | Loan Defaults | Total Loans | Default Rate | Default Share |
+| :--- | ---: | ---: | ---: | ---: |
+| **High Income** | 1,041 | 11,244 | 9.26% | 10.41% |
+| **Low Income** | 4,542 | 11,250 | 40.37% | 45.42% |
+| **Lower-Middle Income** | 2,481 | 11,251 | 22.05% | 24.81% |
+| **Upper-Middle Income** | 1,936 | 11,248 | 17.21% | 19.36% |
+| **Grand Total** | **10,000** | **44,993** | **22.23%** | **100.00%** |
