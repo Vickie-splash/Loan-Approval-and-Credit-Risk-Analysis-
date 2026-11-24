@@ -64,3 +64,12 @@ The source file contains **45,000 rows** and **14 columns** representing borrowe
 | :--- | :--- | :--- |
 | **Total Observations (Rows)** | `45,000` | Rows `2:45001` (`A1:N45001` with header row) |
 | **Total Columns** | `14` | Columns `A` through `N` in `loan_data.csv` 
+
+
+### Data Quality & Cleaning Checks
+
+Before running risk comparisons, the `45,000`-row dataset was  reviewed for structural consistency and field reliability:
+
+* **Row & Column Integrity:** Verified `45,000` data rows across columns `A` through `N` (`A1:N45001`).
+* **Missing & Extreme Value Audit:** Checked numeric fields (`person_age`, `person_income`, `person_emp_exp`, `loan_amnt`, `loan_int_rate`, `loan_percent_income`, `credit_score`) for blank cells, out-of-range ages, zero/negative income denominators, and extreme outliers requiring capping or winsorization.
+* **Categorical Standardization:** Normalized text categories (`person_home_ownership`, `loan_intent`, `previous_loan_defaults_on_file`) so grouping and filtering do not split identical labels due to casing or trailing spaces
