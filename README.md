@@ -110,6 +110,16 @@ This project uses a four-stage analytical workflow combining spreadsheet prepara
 | **2. Risk Analysis** | **SQL Server (SSMS) & SQLite** | Loaded the cleaned dataset into a relational table to compute default rates across `loan_intent`, `person_home_ownership`, `loan_percent_income`, `loan_int_rate`, and `credit_score`;  |
 | **3. Interactive Visualization** | **Microsoft Power BI** | Modeled the cleaned data and SQL risk metrics to build interactive reports, KPI summaries, and cross-filtered visuals comparing default rates, loan exposure, and borrower risk bands. |
 
+### Excel Functions and Tools Used
+
+1. **IF()**: Used to apply logical conditions and categorise data.
+2. **COUNT()**: Used to count cells containing numerical values.
+3. **COUNTIF()**: Used to count records that meet a specified condition, such as approved or defaulted loans.
+4. **SUM()**: Used to calculate the total of numerical values, such as loan amounts.
+5. **PivotTables**: Used to summarise and analyse loan data across categories such as loan intent, income bands, credit score, home ownership and loan status.
+
+
+
 ## **SQL Expressions / Logic and Purpose in Analysis**
 
 | SQL Expression / Logic | Purpose in Analysis |
