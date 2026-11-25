@@ -291,7 +291,7 @@ The ultimate objective should be to **reduce loan defaults, minimise credit loss
 
 
 
-## 7.0 CONCLUSION
+## 8.0 CONCLUSION
 
 This project examined loan default patterns across a portfolio of 44,993 loans, of which 10,000 resulted in defaults, representing an overall default rate of 22.23%. 
 
@@ -305,3 +305,60 @@ In terms of loan purpose, Debt Consolidation recorded the highest default rate a
 Overall, the analysis demonstrates the importance of understanding the relationship between borrower characteristics and loan performance when making lending decisions. It highlights the need for stronger credit assessment procedures, targeted monitoring of high-risk borrower segments, improved affordability checks, and effective loan recovery strategies. It also identifies opportunities to explore lower-default loan categories, particularly Venture and Education loans, for responsible portfolio growth.
 
 In conclusion, adopting a data-driven and risk-based lending approach will enable the lending institution to make better-informed credit decisions, minimise default-related losses, improve repayment performance, and achieve sustainable portfolio growth. The insights and recommendations from this project provide a foundation for strengthening credit-risk management and improving the overall quality of the loan portfolio.
+
+
+## 9.0 Appendix
+
+### **9.1 DATA DICTIONARY**
+
+The data dictionary provides descriptions of the key variables, metrics, and calculated fields used in the loan default analysis.
+
+| Variable / Metric | Description |
+|---|---|
+| `Loan_ID` | Unique identifier assigned to each loan application. |
+| `Loan_Intent` | Purpose for which the borrower requested the loan, such as Education, Medical, Venture, Personal, Debt Consolidation, or Home Improvement. |
+| `Loan_Amount` | Amount of money requested by the borrower. |
+| `Loan_Status` | Indicates whether a loan application was approved or not approved. |
+| `Interest_Rate` | Interest rate charged or assigned to the loan. |
+| `Loan_Percent_Income` | Proportion of the borrower's income represented by the loan amount. |
+| `Home_Ownership` | Borrower's housing status, categorised as Rent, Mortgage, Own, or Other. |
+| `Income_Band` | Classification of borrowers based on their income levels, including Low, Lower-Middle, Upper-Middle, and High Income. |
+| `Credit_Score_Band` | Classification of borrowers according to their credit score ranges. |
+| `Previous_Default` | Indicates whether the borrower has a history of previous loan default. |
+| `Education` | Borrower's educational qualification or category. |
+| `Total_Applications` | Total number of loan applications within a particular category or segment. |
+| `Total_Loans` | Total number of loans considered within a particular segment. |
+| `Defaults` | Number of loans that resulted in default within a particular category or segment. |
+| `Default_Rate` | Percentage of loans that defaulted within a segment, calculated by dividing defaults by total loans in that segment and multiplying by 100. |
+| `Share_of_Defaults` | Percentage contribution of a particular segment to all recorded defaults, calculated by dividing segment defaults by 10,000 total defaults and multiplying by 100. |
+| `Approved_Count` | Total number of loan applications approved within a particular category. |
+| `Approval_Rate` | Percentage of loan applications approved out of total applications within a category. |
+| `Avg_Interest_Rate` | Average interest rate recorded within a particular category or segment. |
+| `Avg_Loan_Amount` | Average loan amount within a particular category or segment. |
+| `Avg_Loan_Percent_Income` | Average loan-to-income ratio expressed as a percentage. |
+| `Total_Approved_Amount` | Sum of loan amounts associated with approved applications. |
+| `Total_Not_Approved_Amount` | Sum of loan amounts associated with applications that were not approved. |
+
+### **9.2 KEY CREDIT RISK METRICS AND DEFINITIONS**
+
+Two important metrics were used to evaluate loan default patterns and understand the contribution of different borrower segments to overall portfolio risk.
+
+**1. Default Rate (Defaults ÷ Total Loans in Segment)**
+
+Measures risk intensity by showing the proportion of loans within a particular segment that resulted in default. It indicates how likely a loan in that segment is to default compared with the overall portfolio default rate of **22.23%**.
+
+**Formula:**
+
+\[
+\text{Default Rate} = \frac{\text{Segment Defaults}}{\text{Total Loans in Segment}}\times 100
+\]
+
+**2. Share of Defaults (Segment Defaults ÷ 10,000 Total Defaults)**
+
+Measures portfolio impact by showing how much a particular segment contributes to the total number of recorded defaults.
+
+**Formula:**
+
+\[
+\text{Share of Defaults} = \frac{\text{Segment Defaults}}{10,000}\times 100
+\]
