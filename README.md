@@ -232,6 +232,45 @@ Evaluating Defaults Rates Across  `LOAN INTENT` and `LOAN PERCENT INCOME`
 9. **Medical loans represent a major source of portfolio losses**, contributing 23.78% of all defaults. The lender should review repayment structures and affordability assessments for this category.
 
 10. **Prioritise borrowers with high loan-to-income ratios during credit assessment:** Although most defaults occur within the 0.1–0.3 bands, these groups account for 60.22% of all defaults. Lenders should strengthen affordability checks within these segments.
+    
+
+## 6.0 BUSINESS RECOMMENDATIONS
+
+Based on the analysis of loan defaults across borrower characteristics, home ownership, income bands, loan intent, and loan-to-income ratios, the following recommendations are proposed to improve lending decisions, reduce default rates, and strengthen overall portfolio performance.
+
+### 1. Strengthen Credit Assessment for High-Risk Borrowers
+Implement stricter credit assessment procedures for borrowers in high-default categories, particularly renters and low-income borrowers. Evaluate their income stability, existing debt obligations, and repayment capacity before approving loans.
+
+### 2. Review Debt Consolidation and Medical Loan Policies
+Introduce more rigorous affordability checks and repayment assessments for Debt Consolidation and Medical loans, which account for substantial default volumes. Consider repayment structures that better reflect borrowers' financial circumstances.
+
+### 3. Prioritise Responsible Growth in Lower-Default Loan Categories
+Explore opportunities to expand lending in Venture and Education loan categories, which record relatively lower default rates. However, assess profitability, loan recovery, and borrower characteristics before increasing exposure.
+
+### 4. Introduce Income-Based Loan Limits
+Establish appropriate loan exposure limits based on borrowers' income and existing financial obligations. Give particular attention to borrowers within the 0.1–0.3 loan-to-income bands, which account for 60.22% of defaults.
+
+### 5. Strengthen Monitoring of Rental and Low-Income Borrowers
+Develop targeted repayment monitoring strategies for renters, especially those in the low-income category.
+
+Early identification of missed payments and financial difficulties can support timely intervention and reduce potential losses.
+
+### 6. Adopt Risk-Based Lending Strategies
+Use home ownership, income band, loan intent, interest rate, and loan-to-income ratio collectively when assessing borrower risk. Avoid relying on a single variable when making lending decisions.
+
+### 7. Improve Early Warning and Loan Recovery Systems
+Establish an early warning system to identify borrowers showing signs of repayment difficulties. Use payment behaviour, missed instalments, and changes in repayment capacity to trigger early engagement and appropriate recovery measures.
+
+
+### 8. Apply Risk-Based Loan Pricing
+Consider borrowers' assessed credit risk when determining loan terms and pricing, while ensuring that interest rates do not create additional repayment difficulties for already financially constrained borrowers.
+
+
+### Overall Strategic Recommendation
+
+Greater attention should be given to high-default segments, particularly renters, low-income borrowers, Debt Consolidation loans, and Medical loans. At the same time, opportunities in lower-default loan categories should be explored through proper profitability and risk assessments.
+
+The ultimate objective should be to **reduce loan defaults, minimise credit losses, improve repayment performance, and achieve sustainable portfolio growth.**
 
 
 
