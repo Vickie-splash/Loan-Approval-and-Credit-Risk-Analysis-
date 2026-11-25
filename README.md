@@ -225,11 +225,14 @@ Evaluating Defaults Rates Across  `LOAN INTENT` and `LOAN PERCENT INCOME`
 
 6. **High-income borrowers record the lowest overall defaults**, with 1,041 cases.
 
-7. **Venture and Education loans present opportunities for safer portfolio growth, recording relatively low default rates of 14.43% and 16.96%, respectively.
+7. **Venture and Education loans present opportunities for safer portfolio growth**, recording relatively low default rates of 14.43% and 16.96%, respectively.
 
-8. **Debt consolidation loans require stricter risk assessment because they have the highest default rate (30.27%), suggesting that borrowers seeking to restructure existing debts may present greater repayment challenges.
+8. **Debt Consolidation loans require stricter risk assessment** because they have the highest default rate (30.27%), suggesting that borrowers seeking to restructure existing debts may present greater repayment challenges.
 
-9. **Medical loans represent a major source of portfolio losses, contributing 23.78% of all defaults. The lender should review repayment structures and affordability assessments for this category.
-  
-10. **Prioritise borrowers with high loan-to-income ratios during credit assessment: Although most defaults occur within the 0.1–0.3 bands, these groups account for 60.22% of all defaults. Lenders should strengthen affordability checks within these segments.
+9. **Medical loans represent a major source of portfolio losses**, contributing 23.78% of all defaults. The lender should review repayment structures and affordability assessments for this category.
+
+10. **Prioritise borrowers with high loan-to-income ratios during credit assessment:** Although most defaults occur within the 0.1–0.3 bands, these groups account for 60.22% of all defaults. Lenders should strengthen affordability checks within these segments.
+
+
+
 
