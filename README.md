@@ -118,34 +118,46 @@ Dashboard Overview
 
 
 
-### 4.2 Loan Status & Home ownership
+### 4.1  Home Ownership Risk Breakdown
 
-Evaluating default rates across `Loan Status` and `Home Ownership`
+Evaluating default rates across `Home Ownership`
+
+| Home Ownership | Defaults | Total Loans | Default Rate | Share of Defaults |
+|---|---:|---:|---:|---:|
+| Mortgage | 2,144 | 18,485 | 11.60% | 21.44% |
+| Other | 39 | 117 | 33.33% | 0.39% |
+| Own | 222 | 2,951 | 7.52% | 2.22% |
+| Rent | 7,595 | 23,440 | 32.40% | 75.95% |
+| **Grand Total** | **10,000** | **44,993** | **22.23%** | **100.00%** |
+
+**Key Findings** 
+
+**Rent:** Accounts for the highest defaults (7,595), representing 75.95% of all defaults, with a 32.40% default rate.
+ **Mortgage:** Records 2,144 defaults (21.44%), with a relatively low default rate of 11.60%.
+ **Own:** Has the lowest default rate (7.52%), contributing just 2.22% of total defaults.
+ **Other:** Records the highest default rate (33.33%), but contributes only 0.39% of defaults due to its small loan volume.
+
+**Overall Finding:** Renters account for the overwhelming majority of defaults, while outright homeowners have the lowest default rate.
 
 
-**Key Findings** Default risk is highest among renters (32.40%), followed by Other (33.33%), Lower-Middle Income? 
-
-
-### 4.3 INTEREST RATE, AND LOAN PERCENT INCOME
-
-Evaluating Defaults Rates Across  `INTEREST RATE` and `LOAN PERCENT INCOME`
-
-(<img width="752" height="452" alt="image" src="https://github.com/user-attachments/assets/16a0298f-527c-48a3-b8ac-b5acd1793f46" />.
-
-Business Insight:
-**Dominant Interest Rate Band:** The 10–15% interest rate range accounts for the highest number of defaults (5,585), representing 55.85% of all defaults.
-**Highest Loan Burden:** Borrowers in the 0.1–0.2 loan-to-income band contribute the most defaults (3,034), followed by the 0.2–0.3 band (2,988).
- **High Burden Patterns:** Defaults decline at loan-to-income ratios above 0.3, with only 386 defaults recorded above 0.4.
- **Combined Pattern:** The highest concentration occurs among borrowers with a loan-to-income ratio of 0.2–0.3 and interest rates of 10–15%, accounting for 1,722 defaults (17.22% of all defaults).
-
-**Overall Insight:** Defaults are concentrated among borrowers with moderate loan-to-income ratios and interest rates of 10–15%.
-
-
-### 4.4 HOME OWNERSHIP AND INCOME BAND
+### 4.2 HOME OWNERSHIP AND INCOME BAND
 Evaluating Defaults Rates Across  `HOME OWNERSHIP` and `INCOME BAND`
 
-(<img width="752" height="452" alt="image" src="https://github.com/use attachments/assets/a2412a31-4574-455a-937e-81b5e8eb2c34" />.
+| Income Band | Mortgage | Other | Own | Rent | Grand Total |
+|---|---:|---:|---:|---:|---:|
+| High Income | 580 | 4 | 6 | 451 | 1,041 |
+| Low Income | 389 | 15 | 194 | 3,944 | 4,542 |
+| Lower-Middle Income | 480 | 8 | 8 | 1,985 | 2,481 |
+| Upper-Middle Income | 695 | 12 | 14 | 1,215 | 1,936 |
+| **Grand Total** | **2,144** | **39** | **222** | **7,595** | **10,000** |
 
-Business Insight:
-Low Income borrowers account for the highest number of defaults (4,542), driven primarily by renters (3,944). 
-Renters dominate defaults across all income bands, while mortgage defaults are highest among Upper-Middle Income borrowers (695). Overall, Low Income renters represent the largest concentration of defaults, highlighting the relationship between income level and home ownership in default patterns.
+
+**Key Findings** 
+
+**Low Income:** Records the highest defaults (4,542), accounting for 45.42% of all defaults.
+ **Renters:** Dominate every income category, with 7,595 defaults overall. Low Income renters alone account for 3,944 defaults (39.44%).
+**Mortgage:** Defaults are highest among Upper-Middle Income borrowers (695).
+ **Homeowners:** Low Income homeowners record the highest defaults (194), while High Income homeowners record only 6.
+**High Income:** Has the lowest overall defaults (1,041), compared with other income bands.
+
+**Overall Finding:** Low Income renters represent the largest concentration of defaults, accounting for 39.44% of all defaults.
