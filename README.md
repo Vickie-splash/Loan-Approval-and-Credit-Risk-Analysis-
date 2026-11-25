@@ -24,23 +24,24 @@
 
 ### Domain & Portfolio Context
 Lenders aim to achieve a steady loan portfolio growth while keeping default rates controlled.
-This report presents a structured portfolio and default-risk analysis of **45,000 loan records** across **14 columns**. It evaluates which borrower, loan, interest-rate, and income-burden combinations drive defaults. It also provides insights on where lending can expand safely.
+This report presents a structured portfolio and default-risk analysis of **45,000 loan records** across **14 columns**. It evaluates which borrower, loan, interest-rate, and income-burden combinations drive defaults. 
+It also provides insights on where lending can expand safely.
 
 ### Background & Purpose of the Study
 To analyze the loan dataset provided in order to identify the key borrower and loan characteristics associated with loan performance and default risk, and to generate evidence-based insights for credit assessment and portfolio management.
 
-The project workflow uses structured analytical tooling:
+The project was carried out as a multi-tool data analytics project using:
 
 - **Microsoft Excel** — initial data inspection and cleaning, Duplicate Checks, Sheet organization, and pivot charts
 - **SQL Server Management Studio (SSMS) & SQLite** — structured queries, and default-rate breakdowns
 - **Power BI** — interactive dashboarding, Visual KPI tracking, Slicers
-- **Structured Reporting (Markdown)** — executive findings, risk insights, and actionable credit recommendations
+  
 
 ##Data Description
 
 ### Dataset Overview
 
-The source file contains **45,000 rows** and **14 columns** representing borrower profiles, loan intent, loan interest, and loan status. 
+The dataset(Loan_Data.csv) contains **45,000 rows** and **14 columns** representing borrower profiles, loan intent, loan interest, and loan status. 
 | Column | Data Type | Description |
 | :--- | :--- | :--- |
 | `Age` | Integer / Decimal | Age of the loan applicant (years) |
@@ -107,15 +108,13 @@ This project uses a four-stage analytical workflow combining spreadsheet prepara
 | **2. Risk Analysis** | **SQL Server (SSMS) & SQLite** | Loaded the cleaned dataset into a relational table to compute default rates across `loan_intent`, `person_home_ownership`, `loan_percent_income`, `loan_int_rate`, and `credit_score`;  |
 | **3. Interactive Visualization** | **Microsoft Power BI** | Modeled the cleaned data and SQL risk metrics to build interactive reports, KPI summaries, and cross-filtered visuals comparing default rates, loan exposure, and borrower risk bands. |
 | **4. Synthesis & Reporting** | **Structured Reporting** | Consolidated Excel, SQL, and Power BI findings into executive takeaways, risk segment comparisons, and actionable underwriting recommendations. |
+
 ## 4. Analysis and Findings
 
-### 4.1 Overall Portfolio Risk Profile
+###Dashboard Screenshots
+Overview Of Dashboard
 
-| Metric | Value | Notes |
-| :--- | :--- | :--- |
-| **Total Loans Analyzed** | `45,000` | Full dataset (`A1:N45001`) |
-| **Defaulted Loans (`loan_status = 1`)** | `10,000` (`22.22%`) | Core credit loss cohort to contain |
-| **Non-Defaulted Loans (`loan_status = 0`)** | `35,000` (`77.78%`) | Performing baseline cohort |
+
 
 
 ### 4.2 Loan Status & Home ownership
