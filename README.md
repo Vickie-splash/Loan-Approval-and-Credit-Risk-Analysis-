@@ -232,7 +232,19 @@ Application volumes decline as `loan_percent_income` increases, indicating fewer
 
 
 
-## Key Findings
+
+
+### Key Findings
+
+1. Medical and debt consolidation loans dominate application volumes, making them significant segments for monitoring default exposure.
+
+2. Venture, education and personal loans record higher application concentrations within the 0.2–0.3 `loan_percent_income` band, highlighting differences in borrowing patterns across loan purposes.
+
+3. Application volumes decline as `loan_percent_income` increases, indicating fewer borrowers request loans representing a larger proportion of their annual income.
+
+4. Default rates should be compared across loan purposes and `loan_percent_income` bands to identify high-risk lending segments and improve credit allocation decisions.
+
+
 
 
 
@@ -368,7 +380,7 @@ Two important metrics were used to evaluate loan default patterns and understand
 
 Measures risk intensity by showing the proportion of loans within a particular segment that resulted in default. It indicates how likely a loan in that segment is to default compared with the overall portfolio default rate of **22.23%**.
 
-**2. Share of Defaults (Segment Defaults ÷ 10,000 Total Defaults): Measures portfolio impact how much of the total default pool that segment actually drives. 
+2. Share of Defaults (Segment Defaults ÷ 10,000 Total Defaults): Measures portfolio impact how much of the total default pool that segment actually drives. 
 
-Combining both prevents over-reacting to small segments with high rates while ensuring high-volume risk drivers are prioritized
+Combining both prevents over-reacting to small segments with high rates while ensuring high-volume risk drivers are prioritized.
 
