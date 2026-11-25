@@ -145,7 +145,7 @@ Evaluating default rates across `Home Ownership`
 | Other | 39 | 117 | 33.33% | 0.39% |
 | Own | 222 | 2,951 | 7.52% | 2.22% |
 | Rent | 7,595 | 23,440 | 32.40% | 75.95% |
-| **Grand Total** | **10,000** | **44,993** | **22.23%** | **100.00%** |
+| **Grand Total** | **10,000** | **44,993** | **100.00%** | **100.00%** |
 
 **Key Findings** 
 
@@ -163,7 +163,7 @@ Evaluating default rates across `Home Ownership`
 ### 4.2 HOME OWNERSHIP AND INCOME BAND RISK BREAKDOWN
 Evaluating Defaults Rates Across  `HOME OWNERSHIP` and `INCOME BAND`
 
-| Income Band | Mortgage | Other | Own | Rent | Grand Total |
+| Income Band | Mortgage | Other | Own | Rent | Defaults |
 |---|---:|---:|---:|---:|---:|
 | High Income | 580 | 4 | 6 | 451 | 1,041 |
 | Low Income | 389 | 15 | 194 | 3,944 | 4,542 |
