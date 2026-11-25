@@ -140,7 +140,7 @@ Evaluating default rates across `Home Ownership`
 **Overall Finding:** Renters account for the overwhelming majority of defaults, while outright homeowners have the lowest default rate.
 
 
-### 4.2 HOME OWNERSHIP AND INCOME BAND
+### 4.2 HOME OWNERSHIP AND INCOME BAND BREAKDOWN
 Evaluating Defaults Rates Across  `HOME OWNERSHIP` and `INCOME BAND`
 
 | Income Band | Mortgage | Other | Own | Rent | Grand Total |
@@ -161,3 +161,28 @@ Evaluating Defaults Rates Across  `HOME OWNERSHIP` and `INCOME BAND`
 **High Income:** Has the lowest overall defaults (1,041), compared with other income bands.
 
 **Overall Finding:** Low Income renters represent the largest concentration of defaults, accounting for 39.44% of all defaults.
+
+
+### 4.3 LOAN INTENT BREAKDOWN
+Evaluating Defaults Rates Across `LOAN INTENT`
+
+| Loan Intent | Defaults | Total Loans | Default Rate | Default Share |
+|---|---:|---:|---:|---:|
+| Debt Consolidation | 2,163 | 7,145 | 30.27% | 21.63% |
+| Education | 1,552 | 9,151 | 16.96% | 15.52% |
+| Home Improvement | 1,258 | 4,783 | 26.30% | 12.58% |
+| Medical | 2,378 | 8,548 | 27.82% | 23.78% |
+| Personal | 1,521 | 7,551 | 20.14% | 15.21% |
+| Venture | 1,128 | 7,815 | 14.43% | 11.28% |
+| **Grand Total** | **10,000** | **44,993** | **22.23%** | **100.00%** |
+
+### Key Findings: Loan Intent vs Defaults
+
+**Debt Consolidation:** Records the highest default rate (30.27%), with 2,163 defaults, accounting for 21.63% of all defaults.
+**Medical:** Has the highest number of defaults (2,378), with a default rate of 27.82%.
+**Home Improvement:** Records a relatively high default rate of 26.30%.
+**Education:** Has a lower default rate of 16.96%, with 1,552 defaults (15.52%).
+**Personal:** Records 1,521 defaults, with a default rate of 20.14%.
+**Venture:** Has the lowest default rate (14.43%), with 1,128 defaults, representing 11.28% of all defaults.
+
+**Overall Insight:** Debt Consolidation has the highest default rate and Medical has the highest number of defaults. Venture and Education loans demonstrate comparatively lower default rates.
