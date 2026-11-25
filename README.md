@@ -346,48 +346,7 @@ Two important metrics were used to evaluate loan default patterns and understand
 
 Measures risk intensity by showing the proportion of loans within a particular segment that resulted in default. It indicates how likely a loan in that segment is to default compared with the overall portfolio default rate of **22.23%**.
 
-**Formula:**
+**2. Share of Defaults (Segment Defaults ÷ 10,000 Total Defaults): Measures portfolio impact how much of the total default pool that segment actually drives. 
 
-\[
-\text{Default Rate} = \frac{\text{Segment Defaults}}{\text{Total Loans in Segment}}\times 100
-\]
+Combining both prevents over-reacting to small segments with high rates while ensuring high-volume risk drivers are prioritized
 
-**2. Share of Defaults (Segment Defaults ÷ 10,000 Total Defaults)**
-
-Measures portfolio impact by showing how much a particular segment contributes to the total number of recorded defaults.
-
-**Formula:**
-
-\[
-\text{Share of Defaults} = \frac{\text{Segment Defaults}}{10,000}\times 100
-\]
-
-# SQL Queries
-
-This section presents the SQL queries used to clean, explore, analyse, and derive insights from the loan dataset. The queries examine loan applications, approval patterns, borrower characteristics, loan amounts, interest rates, and overall loan portfolio performance.
-
-### 2. Loan Approval Analysis by Loan Intent
-
-```sql
-SELECT
-    Loan_Intent,
-    COUNT(*) AS Total_Applications,
-    SUM(Loan_Status = 'Approved') AS total_approved,
-    ROUND(100.0 * SUM(Loan_Status = 'Approved') / COUNT(*), 2) AS approval_rate
-FROM Final_Data
-GROUP BY Loan_Intent
-ORDER BY approval_rate DESC;
-
-
-### 2. Loan Approval Analysis by Loan Intent
-
-```sql
-SELECT
-    Credit_Score_Band,
-    COUNT(*) AS total_applications,
-    SUM(Loan_Status = 'Approved') AS Total_approved,
-    ROUND(100.0 * SUM(Loan_Status = 'Approved') / COUNT(*), 2) AS Approval_rate,
-    ROUND(AVG(Interest_Rate), 2) AS avg_interest_rate
-FROM Final_Data
-GROUP BY Credit_Score_Band
-ORDER BY avg_interest_rate DESC;
