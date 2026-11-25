@@ -45,6 +45,30 @@ The project was carried out as a multi-tool data analytics project using:
 - **Power BI** — interactive dashboarding, Visual KPI tracking, Slicers
   
 
+## 2. Executive Summary: Credit Risk & Portfolio Action Plan
+
+An analysis of 44,993 loans ($431M total value; 11.01% average interest rate) shows a 22.23% default rate (10,000 defaults). Default losses are heavily concentrated in specific borrower segments rather than spread evenly across the book:
+
+* **Housing & Income:** Renters account for 75.95% of all defaults (32.40% default rate), with low-income renters driving 39.44% of total defaults. Outright homeowners default at just 7.52%.
+* **Loan Purpose:** Debt consolidation carries the highest default rate (30.27%), while medical loans represent the largest share of defaults (23.78%). Venture (14.43%) and education (16.96%) loans perform substantially better.
+* **Income Burden:** Borrowers with loan-to-income ratios between 0.1 and 0.3 account for 60.22% of all defaults.
+
+### Action Plan
+
+### 1. Protect Capital at Entry 
+* **Verify true repayment capacity upfront:** Confirm net cash flow and existing debt obligations for renters and lower-income applicants before approving loans, so decisions reflect real ability to repay rather than gross income alone.
+* **Set clear borrowing limits based on income:** Cap loan amounts relative to income—especially when a requested loan represents 10% to 30% of annual income, where defaults concentrate most heavily.
+* **Evaluate the full risk picture:** Avoid approving or declining based on a single metric; assess housing status, income, loan purpose, interest rate, and loan size together.
+
+### 2. Adjust Loan Terms, Pricing & Growth 
+* **Refinements for high-risk loan types:** Tighten affordability checks and align repayment schedules with realistic cash flows for debt consolidation and medical loans.
+* **Balanced risk-based pricing:** Set interest rates to reflect risk without making monthly instalments unaffordable for tight-budget borrowers.
+* **Selective portfolio expansion:** Grow venture and education lending only after validating unit profitability and recovery performance.
+
+### 3. Monitor & Intervene Early 
+* **Track higher-risk accounts closely:** Monitor payment behavior across rental and lower-income borrowers and reach out early when payments are missed or budgets tighten.
+
+
 ## 3. Data Description
 
 ### Dataset Overview
