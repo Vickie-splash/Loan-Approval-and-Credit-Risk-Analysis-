@@ -234,7 +234,7 @@ Evaluating Defaults Rates Across  `LOAN INTENT` and `LOAN PERCENT INCOME`
 10. **Prioritise borrowers with high loan-to-income ratios during credit assessment:** Although most defaults occur within the 0.1–0.3 bands, these groups account for 60.22% of all defaults. Lenders should strengthen affordability checks within these segments.
     
 
-## 6.0 BUSINESS RECOMMENDATIONS
+## 6.0 RECOMMENDATIONS
 
 Based on the analysis of loan defaults across borrower characteristics, home ownership, income bands, loan intent, and loan-to-income ratios, the following recommendations are proposed to improve lending decisions, reduce default rates, and strengthen overall portfolio performance.
 
@@ -274,4 +274,17 @@ The ultimate objective should be to **reduce loan defaults, minimise credit loss
 
 
 
+## 7.0 CONCLUSION
 
+This project examined loan default patterns across a portfolio of 44,993 loans, of which 10,000 resulted in defaults, representing an overall default rate of 22.23%. 
+
+The analysis explored how borrower characteristics, income levels, home ownership status, loan purposes, and loan-to-income ratios relate to loan default patterns, with the aim of identifying major credit-risk segments and providing actionable business recommendations.
+
+
+The findings revealed that **income level and home ownership status are important indicators of borrower risk**. Low-income borrowers recorded a considerably higher default rate than high-income borrowers, while renters accounted for 75.95% of all defaults, with a default rate of 32.40%.
+In terms of loan purpose, Debt Consolidation recorded the highest default rate at 30.27%, while Medical loans contributed the largest share of defaults at 23.78%. Furthermore, borrowers within the 0.1–0.3 loan-to-income bands accounted for 60.22% of all defaults, highlighting the importance of assessing borrowers' existing financial commitments and repayment capacity.
+
+
+Overall, the analysis demonstrates the importance of understanding the relationship between borrower characteristics and loan performance when making lending decisions. It highlights the need for stronger credit assessment procedures, targeted monitoring of high-risk borrower segments, improved affordability checks, and effective loan recovery strategies. It also identifies opportunities to explore lower-default loan categories, particularly Venture and Education loans, for responsible portfolio growth.
+
+In conclusion, adopting a data-driven and risk-based lending approach will enable the lending institution to make better-informed credit decisions, minimise default-related losses, improve repayment performance, and achieve sustainable portfolio growth. The insights and recommendations from this project provide a foundation for strengthening credit-risk management and improving the overall quality of the loan portfolio.
