@@ -377,3 +377,17 @@ SELECT
 FROM Final_Data
 GROUP BY Loan_Intent
 ORDER BY approval_rate DESC;
+
+
+### 2. Loan Approval Analysis by Loan Intent
+
+```sql
+SELECT
+    Credit_Score_Band,
+    COUNT(*) AS total_applications,
+    SUM(Loan_Status = 'Approved') AS Total_approved,
+    ROUND(100.0 * SUM(Loan_Status = 'Approved') / COUNT(*), 2) AS Approval_rate,
+    ROUND(AVG(Interest_Rate), 2) AS avg_interest_rate
+FROM Final_Data
+GROUP BY Credit_Score_Band
+ORDER BY avg_interest_rate DESC;
