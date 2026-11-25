@@ -107,12 +107,13 @@ This project uses a four-stage analytical workflow combining spreadsheet prepara
 | **1. Data Preparation** | **Microsoft Excel** (`Raw_Data`, `Cleaned_Data`, `Summary_Pivots`) | Imported `loan_data.csv` into `Raw_Data`; assessed for missing values, outliers; created derived risk bands (e.g.,credit score brackets); built exploratory pivot summaries. |
 | **2. Risk Analysis** | **SQL Server (SSMS) & SQLite** | Loaded the cleaned dataset into a relational table to compute default rates across `loan_intent`, `person_home_ownership`, `loan_percent_income`, `loan_int_rate`, and `credit_score`;  |
 | **3. Interactive Visualization** | **Microsoft Power BI** | Modeled the cleaned data and SQL risk metrics to build interactive reports, KPI summaries, and cross-filtered visuals comparing default rates, loan exposure, and borrower risk bands. |
-| **4. Synthesis & Reporting** | **Structured Reporting** | Consolidated Excel, SQL, and Power BI findings into executive takeaways, risk segment comparisons, and actionable underwriting recommendations. |
+
 
 ## 4. Analysis and Findings
 
-###Dashboard Screenshots
-Overview Of Dashboard
+Dashboard Screenshots
+Dashboard Overview
+
 
 
 
@@ -120,10 +121,9 @@ Overview Of Dashboard
 ### 4.2 Loan Status & Home ownership
 
 Evaluating default rates across `Loan Status` and `Home Ownership`
-
 (<img width="1009" height="350" alt="image" src="https://github.com/user-attachments/assets/3e1ce3d1-2106-443c-b550-ccfe09d09808" />.
 
-**Business Insight:** Default risk is highest among renters (32.40%), followed by Other (33.33%), Lower-Middle Income? 
+**Key Findings** Default risk is highest among renters (32.40%), followed by Other (33.33%), Lower-Middle Income? 
 
 
 ### 4.3 INTEREST RATE, AND LOAN PERCENT INCOME
