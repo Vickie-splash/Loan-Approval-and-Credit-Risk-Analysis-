@@ -57,12 +57,13 @@ An analysis of 44,993 loans ($431M total value; 11.01% average interest rate) sh
 
 ### 1. Protect Capital at Entry 
 * **Verify true repayment capacity upfront:** Confirm net cash flow and existing debt obligations for renters and lower-income applicants before approving loans, so decisions reflect real ability to repay rather than gross income alone.
-* **Set clear borrowing limits based on income:** Cap loan amounts relative to income—especially when a requested loan represents 10% to 30% of annual income, where defaults concentrate most heavily.
+* **Enforce income-based borrowing limits:** Restrict how much applicants can borrow relative to their income, focusing especially on the 10% to 30% loan-to-income bracket where most defaults occur.  
+
 * **Evaluate the full risk picture:** Avoid approving or declining based on a single metric; assess housing status, income, loan purpose, interest rate, and loan size together.
 
 ### 2. Adjust Loan Terms, Pricing & Growth 
-* **Refinements for high-risk loan types:** Tighten affordability checks and align repayment schedules with realistic cash flows for debt consolidation and medical loans.
-* **Balanced risk-based pricing:** Set interest rates to reflect risk without making monthly instalments unaffordable for tight-budget borrowers.
+* **Fix terms on high-default products:** Require stricter cash-flow checks and realistic payment schedules for debt consolidation and medical loans, where default risk is highest.
+* **Keep risk-based pricing payable:** Charge higher rates where risk justifies it, without pushing stretched borrowers past what they can realistically pay each month.
 * **Selective portfolio expansion:** Grow venture and education lending only after validating unit profitability and recovery performance.
 
 ### 3. Monitor & Intervene Early 
