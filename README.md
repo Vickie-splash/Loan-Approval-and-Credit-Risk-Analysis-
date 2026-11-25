@@ -164,13 +164,7 @@ This project uses a four-stage analytical workflow combining spreadsheet prepara
 
 Dashboard Overview
 
-<img width="676" height="358" alt="image" src="https://github.com/user-attachments/assets/63d1f5d4-fe76-4eee-883b-61c180e8ea41" />
 
-
-
-<img width="662" height="351" alt="image" src="https://github.com/user-attachments/assets/4dd6eca6-85cb-4060-a823-abd8a9f13b36" />
-
-<img width="599" height="322" alt="image" src="https://github.com/user-attachments/assets/fce66011-2f23-49b6-812c-6bbdbfa83765" />
 <img width="709" height="383" alt="image" src="https://github.com/user-attachments/assets/c01599fc-91fe-4d5f-a871-8c4859d106f4" />
 
 
