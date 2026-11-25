@@ -363,7 +363,7 @@ Two important metrics were used to evaluate loan default patterns and understand
 
 Measures risk intensity by showing the proportion of loans within a particular segment that resulted in default. It indicates how likely a loan in that segment is to default compared with the overall portfolio default rate of **22.23%**.
 
-2. Share of Defaults (Segment Defaults ÷ 10,000 Total Defaults): Measures portfolio impact how much of the total default pool that segment actually drives. 
+**2.Share of Defaults (Segment Defaults ÷ 10,000 Total Defaults): Measures portfolio impact how much of the total default pool that segment actually drives. 
 
 Combining both prevents over-reacting to small segments with high rates while ensuring high-volume risk drivers are prioritized.
 
