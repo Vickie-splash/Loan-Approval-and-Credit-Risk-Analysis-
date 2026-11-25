@@ -6,7 +6,7 @@
 
 | Total Loan Records | Core Columns Analyzed  | Avg. Interest Rate |
 
-| **45,000** | **14 (`A1:N45001`)**  | **11.01%** |
+| **45,000** | **14  | **11.01%** |
 
 
 ## Table of Contents
@@ -66,7 +66,8 @@ The dataset(Loan_Data.csv) contains **45,000 rows** and **14 columns** represent
 | Statistic | Value | Notes |
 | :--- | :--- | :--- |
 | **Total Observations (Rows)** | `45,000` | Rows `2:45001` (`A1:N45001` with header row) |
-| **Total Columns** | `14` | Columns `A` through `N` in `loan_data.csv` 
+| **Total Columns** | `14` | 
+
 
 ### Data Cleaning
 
@@ -80,9 +81,8 @@ To ensure analytical reproducibility, the raw dataset underwent a multi-step tra
 * **Completeness & Uniqueness:** Audited columns `A:N` for exact duplicate rows (`0` found), missing/blank cells (`0` found), and negative values in `Income` (`0` found) or `Employment_Years` (`0` found).
 * **Age & Employment column:** Flagged `7` records with `Age > 100` as `Review Required` and excluded them from `Final_Data`. reviewed(`Employment_Years <= Age - 16` via `employment_review`), flagging `0` anomalies.
 * **Loan-to-Income & Target Consistency:**
-  * Identified `24` records in `Final_Data` with `Loan_Percent_Income <= 0` (retained ).
-  * Cross-tabulated `Previous_Default` against `Loan_Status`: `Previous_Default = "Yes"` (`22,856` rows) contains `0` defaults (`Loan_Status = 1`), whereas all `10,000` default cases (`Loan_Status = 1`) occur exclusively within `Previous_Default = "No"` (`22,137` rows
-
+  * Identified `24` records in `Final_Data` with `Loan_Percent_Income <= 0` (retained).
+  
 #### 3. Derived Risk & Demographic Bands
 Standardized continuous borrower attributes  to support SQL grouping and Power BI slicing:
 
@@ -100,7 +100,7 @@ statistical outliers were flagged for segmented analysis and retained in `Final_
 
 ## 3. Methodology
 
-### Analytical Tools & Pipeline
+### Analytical Tools 
 
 This project uses a four-stage analytical workflow combining spreadsheet preparation, relational SQL querying, interactive Power BI reporting, and structured synthesis across a **`45,000`-row × `14`-column** loan dataset (`loan_data.csv`, range `A1:N45001`).
 
@@ -288,11 +288,6 @@ Consider borrowers' assessed credit risk when determining loan terms and pricing
 Greater attention should be given to high-default segments, particularly renters, low-income borrowers, Debt Consolidation loans, and Medical loans. At the same time, opportunities in lower-default loan categories should be explored through proper profitability and risk assessments.
 
 The ultimate objective should be to **reduce loan defaults, minimise credit losses, improve repayment performance, and achieve sustainable portfolio growth.**
-
-
-
-
-
 
 
 ## 7.0 LIMITATION
