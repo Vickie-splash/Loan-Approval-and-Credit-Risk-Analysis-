@@ -17,14 +17,15 @@
 ## Table of Contents
 
 1. [Introduction](#1-introduction)
-2. [Data Description](#2-data-description)
-3. [Methodology](#3-methodology)
-4. [Analysis and Findings](#4-analysis-and-findings)
-5. [Key Insights](#5-key-insights)
-6. [Recommendations](#6-recommendations)
-7.  [Limitations](#8-limitations)
-8. [Conclusion](#7-conclusion)
-9.  [Appendix](#9-appendix)
+2. [Executive Summary](#2-executive-summary)
+3. [Data Description](#2-data-description)
+4. [Methodology](#3-methodology)
+5. [Analysis and Findings](#4-analysis-and-findings)
+6. [Key Insights](#5-key-insights)
+7. [Recommendations](#6-recommendations)
+8.  [Limitations](#8-limitations)
+9. [Conclusion](#7-conclusion)
+10.  [Appendix](#9-appendix)
 
 
 ## 1. Introduction
@@ -44,7 +45,7 @@ The project was carried out as a multi-tool data analytics project using:
 - **Power BI** — interactive dashboarding, Visual KPI tracking, Slicers
   
 
-## 2. Data Description
+## 3. Data Description
 
 ### Dataset Overview
 
@@ -95,7 +96,7 @@ statistical outliers were flagged for segmented analysis and retained in `Final_
 * **`loan_amount_outlier_flag`:** Classified into **Normal**, **Outlier** (`> $23,093.13`), and **Extreme Outlier** (`> $33,949.00`).
 * **`income_review`:** Flagged `286` ultra-high-income records (`> $321,588.67`) for isolated verification while retaining all rows to preserve portfolio completeness.
 
-## 3. Methodology
+## 4. Methodology
 
 ### Analytical Tools 
 
@@ -133,7 +134,7 @@ This project uses a four-stage analytical workflow combining spreadsheet prepara
 
 
 
-## 4. Analysis and Findings
+## 5. Analysis and Findings
 
 Dashboard Screenshots
 Dashboard Overview
@@ -238,7 +239,7 @@ Evaluating Defaults Rates Across  `LOAN INTENT` and `LOAN PERCENT INCOME`
 
 
 
-## 5. Key Insights
+## 6. Key Insights
 
 1. **Default risk is concentrated among renters**, who account for 23,440 loans and 75.95% of all defaults, making them a significant segment for credit-risk monitoring.
    
@@ -261,7 +262,7 @@ Evaluating Defaults Rates Across  `LOAN INTENT` and `LOAN PERCENT INCOME`
 10. **Prioritise borrowers with high loan-to-income ratios during credit assessment:** Although most defaults occur within the 0.1–0.3 bands, these groups account for 60.22% of all defaults. Lenders should strengthen affordability checks within these segments.
     
 
-## 6.0 RECOMMENDATIONS
+## 7.0 RECOMMENDATIONS
 
 Based on the analysis of loan defaults across borrower characteristics, home ownership, income bands, loan intent, and loan-to-income ratios, the following recommendations are proposed to improve lending decisions, reduce default rates, and strengthen overall portfolio performance.
 
@@ -300,7 +301,7 @@ Greater attention should be given to high-default segments, particularly renters
 The ultimate objective should be to **reduce loan defaults, minimise credit losses, improve repayment performance, and achieve sustainable portfolio growth.**
 
 
-## 7.0 LIMITATION
+## 8.0 LIMITATION
 
 Although the analysis provides useful insights into loan application patterns, approval decisions and potential credit risk indicators, certain limitations should be acknowledged when interpreting the findings.
 
@@ -315,7 +316,7 @@ Despite these limitations, the analysis provides a useful foundation for underst
 
 
 
-## 8. Conclusion
+## 9. Conclusion
 
 This project examined loan default patterns across a portfolio of 44,993 loans, of which 10,000 resulted in defaults, representing an overall default rate of 22.23%. 
 
@@ -331,8 +332,8 @@ Overall, the analysis demonstrates the importance of understanding the relations
 In conclusion, adopting a data-driven and risk-based lending approach will enable the lending institution to make better-informed credit decisions, minimise default-related losses, improve repayment performance, and achieve sustainable portfolio growth. The insights and recommendations from this project provide a foundation for strengthening credit-risk management and improving the overall quality of the loan portfolio.
 
 
-## 9. Appendix
-### **9.1 DATA DICTIONARY**
+## 10. Appendix
+### **10.1 DATA DICTIONARY**
 
 The data dictionary provides descriptions of the key variables, metrics, and calculated fields used in the loan default analysis.
 
@@ -362,7 +363,7 @@ The data dictionary provides descriptions of the key variables, metrics, and cal
 | `Total_Approved_Amount` | Sum of loan amounts associated with approved applications. |
 | `Total_Not_Approved_Amount` | Sum of loan amounts associated with applications that were not approved. |
 
-### **9.2 KEY CREDIT RISK METRICS AND DEFINITIONS**
+### **10.2 KEY CREDIT RISK METRICS AND DEFINITIONS**
 
 Two important metrics were used to evaluate loan default patterns and understand the contribution of different borrower segments to overall portfolio risk.
 
