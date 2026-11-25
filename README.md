@@ -174,9 +174,9 @@ Evaluating Defaults Rates Across  `HOME OWNERSHIP` and `INCOME BAND`
 
 **Key Findings**
 
-1. ** Low Income renters represent the largest concentration of defaults.
+1. **Low Income renters represent the largest concentration of defaults.
 
-2. High Income:** Has the lowest overall defaults (1,041), compared with other income bands.
+2. **High Income: Has the lowest overall defaults (1,041), compared with other income bands.
 
 3. **Renters:** Dominate every income category, with 7,595 defaults overall. Low Income renters alone account for 3,944 defaults (39.44%).
 
@@ -200,11 +200,24 @@ Evaluating Defaults Rates Across `LOAN INTENT`
 
 ### Key Findings
 
-** Debt Consolidation has the highest default rate and Medical has the highest number of defaults. Venture and Education loans demonstrate comparatively lower default rates.
+**Debt Consolidation has the highest default rate and Medical has the highest number of defaults.
+
+Venture and Education loans demonstrate comparatively lower default rates.
 
 ### 4.4 LOAN INTENT AND LOAN PERCENT BREAKDOWN
 
 Evaluating Defaults Rates Across  `LOAN INTENT` and `LOAN PERCENT INCOME`
+
+### Key Findings
+
+Medical and debt consolidation loans dominate application volumes, making them significant segments for monitoring default exposure.
+Venture, education and personal loans record higher application concentrations within the 0.2–0.3 `loan_percent_income` band, highlighting differences in borrowing patterns across loan purposes.
+Application volumes decline as `loan_percent_income` increases, indicating fewer borrowers request loans representing a larger proportion of their annual income.
+ Default rates should be compared across loan purposes and `loan_percent_income` bands to identify high-risk lending segments and improve credit allocation decisions.
+
+**Note:** These are preliminary findings on application distribution. The actual default-risk conclusions require default counts for each category.
+
+
 
 | Loan Percent Income | Debt Consolidation | Education | Home Improvement | Medical | Personal | Venture | Grand Total |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -217,15 +230,10 @@ Evaluating Defaults Rates Across  `LOAN INTENT` and `LOAN PERCENT INCOME`
 | 0.6–0.7 | 0 | 2 | 0 | 1 | 1 | 0 | 4 |
 | **Grand Total** | **2,163** | **1,552** | **1,258** | **2,378** | **1,521** | **1,128** | **10,000** |
 
-### Key Findings
 
-1. **Most defaults occurred at moderate loan-to-income levels:** The 0.1–0.2 band recorded the highest number of defaults (3,034; 30.34%), closely followed by the 0.2–0.3 band (2,988; 29.88%). Together, these accounted for 60.22% of all defaults.
 
-2. **The 10–15% interest-rate band dominated defaults:** It accounted for 5,585 defaults (55.85%), making it the largest interest-rate category.
+## Key Findings
 
-3. **The highest Defaults occurred at a loan-to-income ratio of 0.2–0.3 and an interest rate of 10–15%:** 
-
-4. **Defaults declined sharply at higher loan-to-income levels:** Only 386 defaults (3.86%) occurred among borrowers with loan-to-income ratios above 0.4.
 
 
 ## 5. Key Insights
