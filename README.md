@@ -2,12 +2,17 @@
 # Loan Default & Portfolio Risk Analysis Report
 
 > **A Structured Lending & Credit Risk Analysis Using Excel, SQL and PowerBI | Prepared by Victoria Onyenso**
+
 ## Key Metrics at a Glance
 
-| Total Loan Records | Core Columns Analyzed  | Avg. Interest Rate |
-
-| **45,000** | **14  | **11.01%** |
-
+| **Metric** | **Value** |
+|---|---:|
+| **Total Loan Records** | **45,000** |
+| **Core Columns Analysed** | **14** |
+| **Overall Approval Rate** | **22.23%** |
+| **Total Loan Value** | **$431M** |
+| **Average Interest Rate** | **11.01%** |
+| **Average Credit Score** | **632.59** |
 
 ## Table of Contents
 
@@ -60,27 +65,6 @@ The dataset(Loan_Data.csv) contains **45,000 rows** and **14 columns** represent
 | `Credit_Score` | Integer | Applicant credit score |
 | `Previous_defaults` | String / Flag | Indicator of prior loan default history on file |
 | `Loan_Status` | Binary (`0`/`1`) | Target loan outcome indicator (e.g., `1` = Approved, `0` =Not Approved) |
-
-
-### Key Statistics & Portfolio Benchmarks
-
-| **Statistic** | **Value** | 
-|---|---:|---|
-| **Total Observations (Rows)** | `45,000` | 
-| **Total Columns** | `14` | 
-| **Displayed Application Count** | `44.993K` | 
-| **Overall Approval Rate** | `22.23%` | 
-| **Total Loan Value** | `$431M` | 
-| **Average Interest Rate** | `11.01` | 
-| **Average Credit Score** | `632.59` | 
-
-### Dashboard Analysis
-
-1. **Loan Approval by Intent:** Medical loans recorded an approval rate of `27.82%` in the displayed dashboard tooltip.
-2. **Loan Amount by Income Band:** The dashboard compares loan amounts across income categories.
-3. **Approval Rate by Credit Score Band:** Approval rates are compared across Very Good, Fair, Poor and Good credit score bands.
-4. **Interest Rate by Credit Score:** The scatter plot examines the relationship between borrowers' credit scores and interest rates.
-5. **Loan Status by Home Ownership:** The doughnut chart compares loan status counts across home ownership categories.
 
 ### Data Cleaning
 
