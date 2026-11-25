@@ -121,7 +121,7 @@ Dashboard Overview
 ### 4.2 Loan Status & Home ownership
 
 Evaluating default rates across `Loan Status` and `Home Ownership`
-(<img width="1009" height="350" alt="image" src="https://github.com/user-attachments/assets/3e1ce3d1-2106-443c-b550-ccfe09d09808" />.
+
 
 **Key Findings** Default risk is highest among renters (32.40%), followed by Other (33.33%), Lower-Middle Income? 
 
