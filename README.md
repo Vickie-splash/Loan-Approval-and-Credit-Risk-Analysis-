@@ -291,6 +291,25 @@ The ultimate objective should be to **reduce loan defaults, minimise credit loss
 
 
 
+
+
+
+
+## 7.0 LIMITATION
+
+Although the analysis provides useful insights into loan application patterns, approval decisions and potential credit risk indicators, certain limitations should be acknowledged when interpreting the findings.
+
+1. **Reliance on Loan Approval Outcomes:** Loan approval was used as a major indicator in several analyses. However, approval does not necessarily translate into successful repayment, just as loan rejection does not independently establish that an applicant represents a high credit risk. Actual repayment and default records would provide stronger evidence for evaluating credit performance.
+
+
+2. **Data Quality and Completeness:** The accuracy and reliability of the findings depend on the quality of the underlying dataset. Missing values, inconsistent classifications, duplicate records or inaccurate entries, if present, could affect the results. The extent to which these issues influenced the analysis depends on the effectiveness of the data cleaning and validation processes.
+
+8. **Limited Statistical Testing:** The analysis relied mainly on descriptive comparisons without formal statistical tests to establish whether observed differences between applicant categories were statistically significant. Therefore, the findings should be interpreted as observed patterns rather than statistically confirmed relationships.
+
+Despite these limitations, the analysis provides a useful foundation for understanding the distribution of loan applications, identifying potential risk indicators and highlighting areas that may require further investigation. 
+
+
+
 ## 8. Conclusion
 
 This project examined loan default patterns across a portfolio of 44,993 loans, of which 10,000 resulted in defaults, representing an overall default rate of 22.23%. 
