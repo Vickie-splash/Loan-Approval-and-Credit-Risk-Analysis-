@@ -196,7 +196,7 @@ Evaluating Defaults Rates Across `LOAN INTENT`
 | Medical | 2,378 | 8,548 | 27.82% | 23.78% |
 | Personal | 1,521 | 7,551 | 20.14% | 15.21% |
 | Venture | 1,128 | 7,815 | 14.43% | 11.28% |
-| **Grand Total** | **10,000** | **44,993** | **22.23%** | **100.00%** |
+| **Grand Total** | **10,000** | **44,993** | **100.00%** | **100.00%** |
 
 ### Key Findings
 
