@@ -132,15 +132,18 @@ Evaluating default rates across `Home Ownership`
 
 **Key Findings** 
 
-**Rent:** Accounts for the highest defaults (7,595), representing 75.95% of all defaults, with a 32.40% default rate.
- **Mortgage:** Records 2,144 defaults (21.44%), with a relatively low default rate of 11.60%.
- **Own:** Has the lowest default rate (7.52%), contributing just 2.22% of total defaults.
- **Other:** Records the highest default rate (33.33%), but contributes only 0.39% of defaults due to its small loan volume.
+1. **Rent:** Accounts for the highest defaults (7,595), representing 75.95% of all defaults, with a 32.40% default rate.
+ 
+2. **Mortgage:** Records 2,144 defaults (21.44%), with a relatively low default rate of 11.60%.
+ 
+3. **Own:** Has the lowest default rate (7.52%), contributing just 2.22% of total defaults.
+   
+4. **Other:** Records the highest default rate (33.33%), but contributes only 0.39% of defaults due to its small loan volume.
 
 **Overall Finding:** Renters account for the overwhelming majority of defaults, while outright homeowners have the lowest default rate.
 
 
-### 4.2 HOME OWNERSHIP AND INCOME BAND BREAKDOWN
+### 4.2 HOME OWNERSHIP AND INCOME BAND RISK BREAKDOWN
 Evaluating Defaults Rates Across  `HOME OWNERSHIP` and `INCOME BAND`
 
 | Income Band | Mortgage | Other | Own | Rent | Grand Total |
@@ -152,15 +155,17 @@ Evaluating Defaults Rates Across  `HOME OWNERSHIP` and `INCOME BAND`
 | **Grand Total** | **2,144** | **39** | **222** | **7,595** | **10,000** |
 
 
-**Key Findings** 
+**Key Findings**
 
-**Low Income:** Records the highest defaults (4,542), accounting for 45.42% of all defaults.
- **Renters:** Dominate every income category, with 7,595 defaults overall. Low Income renters alone account for 3,944 defaults (39.44%).
-**Mortgage:** Defaults are highest among Upper-Middle Income borrowers (695).
- **Homeowners:** Low Income homeowners record the highest defaults (194), while High Income homeowners record only 6.
-**High Income:** Has the lowest overall defaults (1,041), compared with other income bands.
+1. ** Low Income renters represent the largest concentration of defaults.
 
-**Overall Finding:** Low Income renters represent the largest concentration of defaults, accounting for 39.44% of all defaults.
+2. High Income:** Has the lowest overall defaults (1,041), compared with other income bands.
+
+3. **Renters:** Dominate every income category, with 7,595 defaults overall. Low Income renters alone account for 3,944 defaults (39.44%).
+
+4. **Mortgage:** Defaults are highest among Upper-Middle Income borrowers (695).
+   
+5. **Homeowners:** Low Income homeowners record the highest defaults (194), while High Income homeowners record only 6.
 
 
 ### 4.3 LOAN INTENT BREAKDOWN
@@ -178,11 +183,53 @@ Evaluating Defaults Rates Across `LOAN INTENT`
 
 ### Key Findings: Loan Intent vs Defaults
 
-**Debt Consolidation:** Records the highest default rate (30.27%), with 2,163 defaults, accounting for 21.63% of all defaults.
-**Medical:** Has the highest number of defaults (2,378), with a default rate of 27.82%.
-**Home Improvement:** Records a relatively high default rate of 26.30%.
-**Education:** Has a lower default rate of 16.96%, with 1,552 defaults (15.52%).
-**Personal:** Records 1,521 defaults, with a default rate of 20.14%.
-**Venture:** Has the lowest default rate (14.43%), with 1,128 defaults, representing 11.28% of all defaults.
+** Debt Consolidation has the highest default rate and Medical has the highest number of defaults. Venture and Education loans demonstrate comparatively lower default rates.
 
-**Overall Insight:** Debt Consolidation has the highest default rate and Medical has the highest number of defaults. Venture and Education loans demonstrate comparatively lower default rates.
+### 4.4 LOAN INTENT AND LOAN PERCENT BREAKDOWN
+
+Evaluating Defaults Rates Across  `LOAN INTENT` and `LOAN PERCENT INCOME`
+
+| Loan Percent Income | Debt Consolidation | Education | Home Improvement | Medical | Personal | Venture | Grand Total |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| 0–0.1 | 491 | 263 | 301 | 470 | 280 | 139 | 1,944 |
+| 0.1–0.2 | 691 | 430 | 455 | 719 | 443 | 296 | 3,034 |
+| 0.2–0.3 | 591 | 496 | 327 | 713 | 477 | 384 | 2,988 |
+| 0.3–0.4 | 318 | 293 | 130 | 395 | 268 | 244 | 1,648 |
+| 0.4–0.5 | 64 | 60 | 42 | 76 | 44 | 55 | 341 |
+| 0.5–0.6 | 8 | 8 | 3 | 4 | 8 | 10 | 41 |
+| 0.6–0.7 | 0 | 2 | 0 | 1 | 1 | 0 | 4 |
+| **Grand Total** | **2,163** | **1,552** | **1,258** | **2,378** | **1,521** | **1,128** | **10,000** |
+
+### Key Findings
+
+1. **Most defaults occurred at moderate loan-to-income levels:** The 0.1–0.2 band recorded the highest number of defaults (3,034; 30.34%), closely followed by the 0.2–0.3 band (2,988; 29.88%). Together, these accounted for 60.22% of all defaults.
+
+2. **The 10–15% interest-rate band dominated defaults:** It accounted for 5,585 defaults (55.85%), making it the largest interest-rate category.
+
+3. **The highest Defaults occurred at a loan-to-income ratio of 0.2–0.3 and an interest rate of 10–15%:** 
+
+4. **Defaults declined sharply at higher loan-to-income levels:** Only 386 defaults (3.86%) occurred among borrowers with loan-to-income ratios above 0.4.
+
+
+## 5. Key Insights
+
+1. **Default risk is concentrated among renters**, who account for 23,440 loans and 75.95% of all defaults, making them a significant segment for credit-risk monitoring.
+   
+2. **Low-income renters record the highest defaults**, with 3,944 cases, representing 39.44% of all defaults
+
+3. **Homeowners demonstrate stronger repayment performance**, with the lowest default rate of 7.52%, suggesting greater repayment reliability.
+ 
+4. **Low-income renters record the highest defaults**, with 3,944 cases, representing 39.44% of all defaults.
+   
+5. **Low-income homeowners record the highest defaults among outright homeowners**, with 194 cases, compared with just 6 among high-income homeowners.
+
+6. **High-income borrowers record the lowest overall defaults**, with 1,041 cases.
+
+7. **Venture and Education loans present opportunities for safer portfolio growth, recording relatively low default rates of 14.43% and 16.96%, respectively.
+
+8. **Debt consolidation loans require stricter risk assessment because they have the highest default rate (30.27%), suggesting that borrowers seeking to restructure existing debts may present greater repayment challenges.
+
+9. **Medical loans represent a major source of portfolio losses, contributing 23.78% of all defaults. The lender should review repayment structures and affordability assessments for this category.
+  
+10. **Prioritise borrowers with high loan-to-income ratios during credit assessment: Although most defaults occur within the 0.1–0.3 bands, these groups account for 60.22% of all defaults. Lenders should strengthen affordability checks within these segments.
+
