@@ -5,7 +5,7 @@
 ## Key Metrics at a Glance
 
 | Total Loan Records | Core Columns Analyzed  | Avg. Interest Rate |
-| :--- | :--- | :--- | :--- | :--- |
+
 | **45,000** | **14 (`A1:N45001`)**  | **11.01%** |
 
 
@@ -17,7 +17,9 @@
 4. [Analysis and Findings](#4-analysis-and-findings)
 5. [Key Insights](#5-key-insights)
 6. [Recommendations](#6-recommendations)
-7. [Conclusion](#7-conclusion)
+7.  [Limitations](#8-limitations)
+8. [Conclusion](#7-conclusion)
+9.  [Appendix](#9-appendix)
 
 
 ## 1. Introduction
@@ -107,6 +109,21 @@ This project uses a four-stage analytical workflow combining spreadsheet prepara
 | **1. Data Preparation** | **Microsoft Excel** (`Raw_Data`, `Cleaned_Data`, `Summary_Pivots`) | Imported `loan_data.csv` into `Raw_Data`; assessed for missing values, outliers; created derived risk bands (e.g.,credit score brackets); built exploratory pivot summaries. |
 | **2. Risk Analysis** | **SQL Server (SSMS) & SQLite** | Loaded the cleaned dataset into a relational table to compute default rates across `loan_intent`, `person_home_ownership`, `loan_percent_income`, `loan_int_rate`, and `credit_score`;  |
 | **3. Interactive Visualization** | **Microsoft Power BI** | Modeled the cleaned data and SQL risk metrics to build interactive reports, KPI summaries, and cross-filtered visuals comparing default rates, loan exposure, and borrower risk bands. |
+
+## **SQL Expressions / Logic and Purpose in Analysis**
+
+| SQL Expression / Logic | Purpose in Analysis |
+|---|---|
+| `GROUP BY` | Groups records by selected variables such as `Loan_Intent`, `Credit_Score_Band`, `Home_Ownership`, `Previous_Default`, `Education`, or `Income_Band` for category-based analysis. |
+| `COUNT(*) AS Total_Applications` | Counts the total number of loan applications within each category or group. |
+| `SUM(CASE WHEN Loan_Status = 'Approved' ) AS Approved_Count` | Counts the number of approved applications where `Loan_Status` uses the text label `'Approved'`. |
+| `Approval_Rate` | Calculates the percentage of applications approved within each group, rounded to two decimal places. |
+| `AVG(Interest_Rate) AS Avg_Interest_Rate` | Calculates the average interest rate for each category. |
+| `AVG(Loan_Amount) AS Avg_Loan_Amount` | Calculates the average loan amount within each group. |
+| `AVG(Loan_Percent_Income) * 100 AS Avg_Loan_Percent_Income` | Calculates the average loan-to-income ratio and expresses it as a percentage. |
+| `SUM(CASE WHEN Loan_Status = Approved) AS Total_Approved_Amount` | Calculates the total loan amount associated with approved applications. |
+| `SUM(CASE WHEN Loan_Status = Not Approved) AS Total_Not_Approved_Amount` | Calculates the total loan amount associated with applications that were not approved. |
+
 
 
 ## 4. Analysis and Findings
