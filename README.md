@@ -39,7 +39,7 @@ The project was carried out as a multi-tool data analytics project using:
 - **Power BI** — interactive dashboarding, Visual KPI tracking, Slicers
   
 
-##Data Description
+## 2. Data Description
 
 ### Dataset Overview
 
@@ -198,7 +198,7 @@ Evaluating Defaults Rates Across `LOAN INTENT`
 | Venture | 1,128 | 7,815 | 14.43% | 11.28% |
 | **Grand Total** | **10,000** | **44,993** | **22.23%** | **100.00%** |
 
-### Key Findings: Loan Intent vs Defaults
+### Key Findings
 
 ** Debt Consolidation has the highest default rate and Medical has the highest number of defaults. Venture and Education loans demonstrate comparatively lower default rates.
 
@@ -291,7 +291,7 @@ The ultimate objective should be to **reduce loan defaults, minimise credit loss
 
 
 
-## 8.0 CONCLUSION
+## 8. Conclusion
 
 This project examined loan default patterns across a portfolio of 44,993 loans, of which 10,000 resulted in defaults, representing an overall default rate of 22.23%. 
 
@@ -307,8 +307,7 @@ Overall, the analysis demonstrates the importance of understanding the relations
 In conclusion, adopting a data-driven and risk-based lending approach will enable the lending institution to make better-informed credit decisions, minimise default-related losses, improve repayment performance, and achieve sustainable portfolio growth. The insights and recommendations from this project provide a foundation for strengthening credit-risk management and improving the overall quality of the loan portfolio.
 
 
-## 9.0 Appendix
-
+## 9. Appendix
 ### **9.1 DATA DICTIONARY**
 
 The data dictionary provides descriptions of the key variables, metrics, and calculated fields used in the loan default analysis.
@@ -362,3 +361,19 @@ Measures portfolio impact by showing how much a particular segment contributes t
 \[
 \text{Share of Defaults} = \frac{\text{Segment Defaults}}{10,000}\times 100
 \]
+
+# SQL Queries
+
+This section presents the SQL queries used to clean, explore, analyse, and derive insights from the loan dataset. The queries examine loan applications, approval patterns, borrower characteristics, loan amounts, interest rates, and overall loan portfolio performance.
+
+### 2. Loan Approval Analysis by Loan Intent
+
+```sql
+SELECT
+    Loan_Intent,
+    COUNT(*) AS Total_Applications,
+    SUM(Loan_Status = 'Approved') AS total_approved,
+    ROUND(100.0 * SUM(Loan_Status = 'Approved') / COUNT(*), 2) AS approval_rate
+FROM Final_Data
+GROUP BY Loan_Intent
+ORDER BY approval_rate DESC;
