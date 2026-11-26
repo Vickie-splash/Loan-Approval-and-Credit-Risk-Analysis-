@@ -165,6 +165,9 @@ This project uses a four-stage analytical workflow combining spreadsheet prepara
 Dashboard Overview
 
 
+
+# Loan and Credit Risk Analytics Dashboard
+
 <img width="493" height="280" alt="image" src="https://github.com/user-attachments/assets/d04286db-31fb-40a4-b91d-e76da3ecf20a" />
 
 
