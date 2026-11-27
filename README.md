@@ -9,7 +9,7 @@
 |---|---:|
 | **Total Loan Records** | **45,000** |
 | **Core Columns Analysed** | **14** |
-| **Overall Approval Rate** | **22.23%** |
+| **Overall Approval Rate** | **22%** |
 | **Total Loan Value** | **$431M** |
 | **Average Interest Rate** | **11.01%** |
 | **Average Credit Score** | **632.59** |
