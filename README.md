@@ -171,6 +171,7 @@ Dashboard Overview
 
 <img width="452" height="263" alt="image" src="https://github.com/user-attachments/assets/3c5019b7-b1f6-4106-a2ac-6de7d1b26b1e" />
 
+<img width="455" height="260" alt="image" src="https://github.com/user-attachments/assets/0ea4469b-4e68-4245-9992-50dc386ee114" />
 
 
 ### 4.1  Home Ownership Risk Breakdown
